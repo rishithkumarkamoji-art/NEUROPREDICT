@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import { classifyRisk } from '../../shared/academicRules';
-import { authenticate, authorize, type AuthenticatedRequest } from '../middleware/auth';
-import { dataStore } from '../services/dataStore';
-import { neuralNetworkService } from '../services/neuralNetwork';
+import { classifyRisk } from '../../shared/academicRules.ts';
+import { authenticate, authorize, type AuthenticatedRequest } from '../middleware/auth.ts';
+import { dataStore } from '../services/dataStore.ts';
+import { neuralNetworkService } from '../services/neuralNetwork.ts';
 
 export const analyticsRouter = Router();
 export const reportsRouter = Router();

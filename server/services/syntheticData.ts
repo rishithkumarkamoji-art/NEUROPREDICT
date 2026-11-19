@@ -1,5 +1,5 @@
-import type { AcademicFeatures, AcademicHistoryPoint, StudentRecord } from '../../shared/types';
-import { DEPARTMENTS, SECTIONS } from '../../shared/academicRules';
+import type { AcademicFeatures, AcademicHistoryPoint, StudentRecord } from '../../shared/types.ts';
+import { DEPARTMENTS, SECTIONS } from '../../shared/academicRules.ts';
 
 export interface SyntheticRecord {
   features: AcademicFeatures;

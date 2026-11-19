@@ -1,24 +1,40 @@
 import 'dotenv/config';
 import express from 'express';
 import fs from 'fs';
+import http from 'http';
 import path from 'path';
-import { createServer as createViteServer } from 'vite';
-import { createExpressApp } from './server/app';
-import { bootstrapApplication } from './server/seed/bootstrap';
+import { createExpressApp } from './server/app.ts';
+import { bootstrapApplication } from './server/seed/bootstrap.ts';
 
 const PORT = Number(process.env.PORT || 3000);
 const isProduction = process.env.NODE_ENV === 'production';
 
 async function startServer() {
-  console.log('[NeuroPredict] Bootstrapping database, demo accounts, and TensorFlow.js ANN...');
-  await bootstrapApplication();
-  console.log('[NeuroPredict] Initialization complete.');
+  let isReady = false;
+  let bootstrapError: Error | null = null;
+  let resolveReady!: () => void;
+  let rejectReady!: (err: Error) => void;
 
-  const app = createExpressApp();
+  const readyPromise = new Promise<void>((resolve, reject) => {
+    resolveReady = resolve;
+    rejectReady = reject;
+  });
+
+  const app = createExpressApp({
+    waitForReady: () => readyPromise,
+    getReadyState: () => ({ ready: isReady, error: bootstrapError?.message ?? null }),
+  });
+
+  const httpServer = http.createServer(app);
 
   if (!isProduction) {
+    const { createServer: createViteServer } = await import('vite');
+    const hmrDisabled = process.env.DISABLE_HMR === 'true';
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        hmr: hmrDisabled ? false : { server: httpServer },
+      },
       appType: 'spa',
     });
     app.use(vite.middlewares);
@@ -32,8 +48,23 @@ async function startServer() {
     }
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[NeuroPredict] Server listening on http://localhost:${PORT}`);
+  httpServer.listen(PORT, '0.0.0.0', () => {
+    console.log(`[NeuroPredict] Server listening on http://0.0.0.0:${PORT}`);
+    setImmediate(() => {
+      console.log('[NeuroPredict] Bootstrapping database, demo accounts, and TensorFlow.js ANN...');
+      bootstrapApplication()
+        .then(() => {
+          isReady = true;
+          console.log('[NeuroPredict] Initialization complete.');
+          resolveReady();
+        })
+        .catch((err) => {
+          bootstrapError = err instanceof Error ? err : new Error(String(err));
+          console.error('[NeuroPredict] Fatal initialization error:', bootstrapError);
+          rejectReady(bootstrapError);
+          process.exit(1);
+        });
+    });
   });
 }
 

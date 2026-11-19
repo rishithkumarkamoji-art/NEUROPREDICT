@@ -20,6 +20,7 @@ import {
   Menu,
   X,
 } from 'lucide-react';
+import { PWAInstallButton } from '../components/PWAInstallControl';
 import { useAuth } from '../context/AuthContext';
 import { useThemeToast } from '../context/ThemeToastContext';
 import type { UserRole } from '../../shared/types';
@@ -226,7 +227,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </div>
           </div>
 
-          <div className="flex items-center gap-2.5 shrink-0">
+          <div className="flex items-center gap-2 shrink-0">
+            <PWAInstallButton />
             <button
               type="button"
               onClick={toggleTheme}
@@ -245,9 +247,74 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </div>
         </header>
 
-        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 max-w-[1440px] w-full mx-auto">
+        <main className="flex-1 px-4 sm:px-6 lg:px-8 pt-6 pb-24 lg:pb-8 max-w-[1440px] w-full mx-auto">
           {children}
         </main>
+
+        {/* Native-Style Mobile Bottom Tab Bar (Android & iOS PWA) */}
+        <nav
+          aria-label="Mobile quick navigation"
+          className="lg:hidden fixed bottom-0 inset-x-0 z-30 border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md pb-[env(safe-area-inset-bottom)]"
+        >
+          <div className="grid grid-cols-4 h-15">
+            <NavLink
+              to={homePath}
+              className={({ isActive }) =>
+                `flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium ${
+                  isActive
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'text-slate-500 dark:text-slate-400'
+                }`
+              }
+            >
+              <LayoutDashboard className="w-4.5 h-4.5" />
+              <span>Home</span>
+            </NavLink>
+            <NavLink
+              to="/predict"
+              className={({ isActive }) =>
+                `flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium ${
+                  isActive
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'text-slate-500 dark:text-slate-400'
+                }`
+              }
+            >
+              <Sparkles className="w-4.5 h-4.5" />
+              <span>Predict</span>
+            </NavLink>
+            <NavLink
+              to={user.role === 'student' ? '/neural-lab' : '/students'}
+              className={({ isActive }) =>
+                `flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium ${
+                  isActive
+                    ? 'text-blue-600 dark:text-blue-400'
+                    : 'text-slate-500 dark:text-slate-400'
+                }`
+              }
+            >
+              {user.role === 'student' ? (
+                <>
+                  <Network className="w-4.5 h-4.5" />
+                  <span>ANN Lab</span>
+                </>
+              ) : (
+                <>
+                  <Users className="w-4.5 h-4.5" />
+                  <span>Students</span>
+                </>
+              )}
+            </NavLink>
+            <button
+              type="button"
+              onClick={() => setMobileOpen(true)}
+              className="flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium text-slate-500 dark:text-slate-400"
+            >
+              <Menu className="w-4.5 h-4.5" />
+              <span>Menu</span>
+            </button>
+          </div>
+        </nav>
       </div>
     </div>
   );

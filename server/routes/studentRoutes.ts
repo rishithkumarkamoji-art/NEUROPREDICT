@@ -8,10 +8,10 @@ import {
   parseAndValidateStudentCsv,
   REQUIRED_CSV_COLUMNS,
   validateAcademicFeatures,
-} from '../../shared/academicRules';
-import { authenticate, authorize, type AuthenticatedRequest } from '../middleware/auth';
-import { dataStore } from '../services/dataStore';
-import { neuralNetworkService } from '../services/neuralNetwork';
+} from '../../shared/academicRules.ts';
+import { authenticate, authorize, type AuthenticatedRequest } from '../middleware/auth.ts';
+import { dataStore } from '../services/dataStore.ts';
+import { neuralNetworkService } from '../services/neuralNetwork.ts';
 
 export const studentRouter = Router();
 

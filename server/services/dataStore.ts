@@ -1,6 +1,7 @@
 import crypto from 'crypto';
 import fs from 'fs';
 import mongoose from 'mongoose';
+import os from 'os';
 import path from 'path';
 import type {
   ModelTrainingRecord,
@@ -9,8 +10,8 @@ import type {
   StudentRecord,
   SystemSettings,
   UserRecord,
-} from '../../shared/types';
-import { DEFAULT_RISK_THRESHOLDS } from '../../shared/academicRules';
+} from '../../shared/types.ts';
+import { DEFAULT_RISK_THRESHOLDS } from '../../shared/academicRules.ts';
 import {
   ModelTrainingModel,
   PredictionModel,
@@ -18,7 +19,7 @@ import {
   SettingsModel,
   StudentModel,
   UserModel,
-} from '../models/schemas';
+} from '../models/schemas.ts';
 
 interface LocalDbSnapshot {
   users: UserRecord[];
@@ -91,8 +92,14 @@ class DataStore {
   }
 
   private loadLocalFile() {
-    const dir = path.dirname(this.localFilePath);
-    fs.mkdirSync(dir, { recursive: true });
+    try {
+      const dir = path.dirname(this.localFilePath);
+      fs.mkdirSync(dir, { recursive: true });
+    } catch {
+      this.localFilePath = path.join(os.tmpdir(), 'neuropredict', 'neuropredict-db.json');
+      fs.mkdirSync(path.dirname(this.localFilePath), { recursive: true });
+    }
+
     if (fs.existsSync(this.localFilePath)) {
       try {
         const parsed = JSON.parse(fs.readFileSync(this.localFilePath, 'utf-8')) as Partial<LocalDbSnapshot>;
@@ -114,9 +121,15 @@ class DataStore {
 
   private persistLocalFile() {
     if (this.useMongo) return;
-    const dir = path.dirname(this.localFilePath);
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(this.localFilePath, JSON.stringify(this.localData, null, 2), 'utf-8');
+    try {
+      const dir = path.dirname(this.localFilePath);
+      fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(this.localFilePath, JSON.stringify(this.localData, null, 2), 'utf-8');
+    } catch {
+      this.localFilePath = path.join(os.tmpdir(), 'neuropredict', 'neuropredict-db.json');
+      fs.mkdirSync(path.dirname(this.localFilePath), { recursive: true });
+      fs.writeFileSync(this.localFilePath, JSON.stringify(this.localData, null, 2), 'utf-8');
+    }
   }
 
   // -------------------- USERS --------------------

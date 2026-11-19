@@ -9,8 +9,8 @@ import {
   toPublicUser,
   verifyPassword,
   type AuthenticatedRequest,
-} from '../middleware/auth';
-import { dataStore } from '../services/dataStore';
+} from '../middleware/auth.ts';
+import { dataStore } from '../services/dataStore.ts';
 
 export const authRouter = Router();
 export const usersRouter = Router();

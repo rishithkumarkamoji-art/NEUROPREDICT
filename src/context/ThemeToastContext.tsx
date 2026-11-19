@@ -62,7 +62,7 @@ export function ThemeToastProvider({ children }: { children: React.ReactNode }) 
       {children}
       <div
         aria-live="polite"
-        className="fixed bottom-5 right-5 z-50 flex flex-col gap-2.5 max-w-sm w-full pointer-events-none"
+        className="fixed bottom-20 left-4 right-4 sm:left-auto sm:right-5 lg:bottom-5 z-50 flex flex-col gap-2.5 sm:max-w-sm sm:w-full pointer-events-none"
       >
         {toasts.map((t) => (
           <div

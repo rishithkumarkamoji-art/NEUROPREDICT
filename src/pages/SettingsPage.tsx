@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Save, Sun, Moon } from 'lucide-react';
+import { Save, Sun, Moon, Smartphone } from 'lucide-react';
 import type { SystemSettings } from '../../shared/types';
+import { PWAInstallButton } from '../components/PWAInstallControl';
 import { LoadingSkeleton, SectionHeader } from '../components/UiPrimitives';
 import { useAuth } from '../context/AuthContext';
 import { useThemeToast } from '../context/ThemeToastContext';
@@ -92,6 +93,27 @@ export function SettingsPage() {
             <Moon className="w-3.5 h-3.5" />
             <span>Dark</span>
           </button>
+        </div>
+      </div>
+
+      {/* Mobile App Installation (Android & iOS PWA) */}
+      <div className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-blue-600/10 text-blue-600 dark:text-blue-400 flex items-center justify-center shrink-0">
+            <Smartphone className="w-5 h-5" />
+          </div>
+          <div>
+            <h2 className="text-sm font-semibold text-slate-900 dark:text-slate-100">
+              Mobile App (Android &amp; iOS)
+            </h2>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+              Install NeuroPredict directly onto your Android or iPhone Home Screen for full-screen
+              app launch, mobile bottom navigation, and offline shell caching.
+            </p>
+          </div>
+        </div>
+        <div className="shrink-0">
+          <PWAInstallButton variant="card" />
         </div>
       </div>
 

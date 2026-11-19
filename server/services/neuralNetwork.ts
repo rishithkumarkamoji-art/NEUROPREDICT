@@ -1,5 +1,6 @@
 import * as tf from '@tensorflow/tfjs';
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import type {
   AcademicFeatures,
@@ -10,14 +11,14 @@ import type {
   ForwardPassInspection,
   ModelTrainingRecord,
   NormalizationStats,
-} from '../../shared/types';
+} from '../../shared/types.ts';
 import {
   computeConformalHalfWidth,
   FEATURE_METADATA,
   FEATURE_ORDER,
   featureObjectToArray,
-} from '../../shared/academicRules';
-import { createSeededRng, generateSyntheticDataset } from './syntheticData';
+} from '../../shared/academicRules.ts';
+import { createSeededRng, generateSyntheticDataset } from './syntheticData.ts';
 
 const DEFAULT_MODEL_DIR = path.resolve(
   process.cwd(),
@@ -455,7 +456,13 @@ class NeuralNetworkService {
    */
   public async saveCurrentModel(): Promise<void> {
     if (!this.model || !this.metadata) return;
-    fs.mkdirSync(this.storageDir, { recursive: true });
+    try {
+      fs.mkdirSync(this.storageDir, { recursive: true });
+      fs.accessSync(this.storageDir, fs.constants.W_OK);
+    } catch {
+      this.storageDir = path.join(os.tmpdir(), 'neuropredict', 'saved-model');
+      fs.mkdirSync(this.storageDir, { recursive: true });
+    }
 
     const modelJsonPath = path.join(this.storageDir, 'model.json');
     const weightsPath = path.join(this.storageDir, 'weights.bin');

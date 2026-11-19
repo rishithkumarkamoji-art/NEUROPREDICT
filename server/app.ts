@@ -5,16 +5,21 @@ import {
   analyticsRouter,
   reportsRouter,
   settingsRouter,
-} from './routes/analyticsReportRoutes';
-import { authRouter, usersRouter } from './routes/authRoutes';
+} from './routes/analyticsReportRoutes.ts';
+import { authRouter, usersRouter } from './routes/authRoutes.ts';
 import {
   modelRouter,
   predictionRouter,
   recommendationRouter,
-} from './routes/predictionModelRoutes';
-import { studentRouter } from './routes/studentRoutes';
+} from './routes/predictionModelRoutes.ts';
+import { studentRouter } from './routes/studentRoutes.ts';
 
-export function createExpressApp() {
+interface AppLifecycleOptions {
+  waitForReady?: () => Promise<void>;
+  getReadyState?: () => { ready: boolean; error: string | null };
+}
+
+export function createExpressApp(options?: AppLifecycleOptions) {
   const app = express();
 
   app.set('trust proxy', 1);
@@ -50,10 +55,29 @@ export function createExpressApp() {
   app.use(express.json({ limit: '2mb' }));
   app.use(express.urlencoded({ extended: true, limit: '2mb' }));
 
-  // Health probe
+  // Health probe responds immediately for Cloud Run startup/liveness checks
   app.get('/api/health', (_req, res) => {
-    res.json({ ok: true, service: 'NeuroPredict API', timestamp: new Date().toISOString() });
+    const state = options?.getReadyState?.() ?? { ready: true, error: null };
+    res.json({
+      ok: true,
+      ready: state.ready,
+      service: 'NeuroPredict API',
+      timestamp: new Date().toISOString(),
+    });
   });
+
+  // Ensure API requests wait cleanly for bootstrap initialization to finish
+  if (options?.waitForReady) {
+    const waitForReady = options.waitForReady;
+    app.use('/api', async (_req, _res, next) => {
+      try {
+        await waitForReady();
+        next();
+      } catch (err) {
+        next(err);
+      }
+    });
+  }
 
   // Mount REST API routes
   app.use('/api/auth', authRouter);

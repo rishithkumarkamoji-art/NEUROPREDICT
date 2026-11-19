@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import type { UserRole } from '../shared/types';
+import { OfflineIndicator } from './components/PWAInstallControl';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeToastProvider } from './context/ThemeToastContext';
 import { AppShell } from './layouts/AppShell';
@@ -208,6 +209,7 @@ export default function App() {
             {/* 404 Catch-All */}
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
+          <OfflineIndicator />
         </BrowserRouter>
       </AuthProvider>
     </ThemeToastProvider>

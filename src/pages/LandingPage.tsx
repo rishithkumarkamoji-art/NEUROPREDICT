@@ -12,6 +12,7 @@ import {
   Moon,
 } from 'lucide-react';
 import { NeuralDiagramSvg } from '../components/NeuralDiagramSvg';
+import { PWAInstallButton } from '../components/PWAInstallControl';
 import { useAuth } from '../context/AuthContext';
 import { useThemeToast } from '../context/ThemeToastContext';
 import { api } from '../services/api';
@@ -103,7 +104,8 @@ export function LandingPage() {
             </a>
           </nav>
 
-          <div className="flex items-center gap-3 shrink-0">
+          <div className="flex items-center gap-2.5 shrink-0">
+            <PWAInstallButton />
             <Link
               to={dashboardTarget}
               className="px-4 py-2 text-sm font-medium rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors whitespace-nowrap shrink-0"

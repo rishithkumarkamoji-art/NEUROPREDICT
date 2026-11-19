@@ -2,11 +2,11 @@ import {
   classifyGrade,
   classifyRisk,
   generateRuleBasedRecommendations,
-} from '../../shared/academicRules';
-import { hashPassword } from '../middleware/auth';
-import { dataStore } from '../services/dataStore';
-import { neuralNetworkService } from '../services/neuralNetwork';
-import { buildDemoStudents } from '../services/syntheticData';
+} from '../../shared/academicRules.ts';
+import { hashPassword } from '../middleware/auth.ts';
+import { dataStore } from '../services/dataStore.ts';
+import { neuralNetworkService } from '../services/neuralNetwork.ts';
+import { buildDemoStudents } from '../services/syntheticData.ts';
 
 export async function bootstrapApplication(): Promise<void> {
   await dataStore.connect();

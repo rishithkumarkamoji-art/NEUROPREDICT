@@ -3,7 +3,7 @@ import type {
   GradeCategory,
   RecommendationItem,
   RiskCategory,
-} from './types';
+} from './types.ts';
 
 export interface FeatureMeta {
   key: keyof AcademicFeatures;

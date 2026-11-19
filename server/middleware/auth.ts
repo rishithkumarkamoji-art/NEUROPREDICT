@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs';
 import type { NextFunction, Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import type { PublicUser, UserRecord, UserRole } from '../../shared/types';
-import { dataStore } from '../services/dataStore';
+import type { PublicUser, UserRecord, UserRole } from '../../shared/types.ts';
+import { dataStore } from '../services/dataStore.ts';
 
 const JWT_SECRET =
   process.env.JWT_SECRET && process.env.JWT_SECRET !== 'replace-with-a-strong-256-bit-secret-key'
