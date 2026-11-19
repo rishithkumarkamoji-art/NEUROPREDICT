@@ -1,0 +1,5761 @@
+{
+  "users": [
+    {
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@neuropredict.edu",
+      "passwordHash": "$2b$10$Hkpm.a402J/I1cZ/T.bG7eABplhAh08S7gXMTfQiAEZzUM.bgo7GC",
+      "role": "student",
+      "department": "Computer Science & Engineering",
+      "id": "usr_f82bd6a9490b",
+      "createdAt": "2026-11-19T02:47:47.366Z"
+    },
+    {
+      "name": "Prof. Sunita Deshpande",
+      "email": "aids.faculty@neuropredict.edu",
+      "passwordHash": "$2b$10$LfCBG3OJ0r5GhRlBTlAHROyIZK1tBTPDVffhuncozfmxEQNbfnYpq",
+      "role": "faculty",
+      "department": "Artificial Intelligence & Data Science",
+      "id": "usr_a7d4d1db66e0",
+      "createdAt": "2026-11-19T02:47:47.366Z"
+    },
+    {
+      "name": "Prof. Rajesh Subramanian",
+      "email": "faculty@neuropredict.edu",
+      "passwordHash": "$2b$10$LfCBG3OJ0r5GhRlBTlAHROyIZK1tBTPDVffhuncozfmxEQNbfnYpq",
+      "role": "faculty",
+      "department": "Computer Science & Engineering",
+      "id": "usr_0b89a559affd",
+      "createdAt": "2026-11-19T02:47:47.366Z"
+    },
+    {
+      "name": "Dr. Kavita Rao",
+      "email": "admin@neuropredict.edu",
+      "passwordHash": "$2b$10$0uvV4W1Yz8Zk.GMmCP5pfO0cvL0LyswBqE6.AbWrwHzQOHl5fUn9W",
+      "role": "admin",
+      "department": "Academic Administration",
+      "id": "usr_fd65702c52bc",
+      "createdAt": "2026-11-19T02:47:47.365Z"
+    }
+  ],
+  "students": [
+    {
+      "studentId": "NP2023024",
+      "fullName": "Shruti Bhatia",
+      "email": "shruti.bhatia@neuropredict.edu",
+      "department": "Civil Engineering",
+      "semester": 8,
+      "section": "A",
+      "enrollmentYear": 2022,
+      "attendance": 87,
+      "internalMarks": 82,
+      "previousGPA": 8.4,
+      "assignmentCompletion": 89,
+      "weeklyStudyHours": 21,
+      "previousPerformance": 83,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 84,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.06,
+          "attendance": 84.1,
+          "score": 78.9
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.16,
+          "attendance": 85,
+          "score": 80.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.27,
+          "attendance": 86.2,
+          "score": 81.6
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.38,
+          "attendance": 87.3,
+          "score": 83
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.46,
+          "attendance": 88,
+          "score": 84
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.43,
+          "attendance": 86.8,
+          "score": 83.1
+        }
+      ],
+      "id": "stu_1fdcf78e657b",
+      "createdAt": "2026-11-19T02:47:47.373Z",
+      "updatedAt": "2026-11-19T02:47:47.373Z"
+    },
+    {
+      "studentId": "NP2023023",
+      "fullName": "Yashwant Thakur",
+      "email": "yashwant.thakur@neuropredict.edu",
+      "department": "Mechanical Engineering",
+      "semester": 5,
+      "section": "C",
+      "enrollmentYear": 2024,
+      "attendance": 67,
+      "internalMarks": 59,
+      "previousGPA": 6.3,
+      "assignmentCompletion": 65,
+      "weeklyStudyHours": 11.5,
+      "previousPerformance": 61,
+      "subjectsNeedingImprovement": 2,
+      "participationScore": 58,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 5.94,
+          "attendance": 63.7,
+          "score": 56.5
+        },
+        {
+          "month": "Jun",
+          "gpa": 6.06,
+          "attendance": 65,
+          "score": 58.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 6.19,
+          "attendance": 66.4,
+          "score": 59.8
+        },
+        {
+          "month": "Aug",
+          "gpa": 6.18,
+          "attendance": 65.7,
+          "score": 59.4
+        },
+        {
+          "month": "Sep",
+          "gpa": 6.32,
+          "attendance": 67.4,
+          "score": 61.4
+        },
+        {
+          "month": "Oct",
+          "gpa": 6.44,
+          "attendance": 68.7,
+          "score": 63
+        }
+      ],
+      "id": "stu_a6b3fb9ddd5a",
+      "createdAt": "2026-11-19T02:47:47.373Z",
+      "updatedAt": "2026-11-19T02:47:47.373Z"
+    },
+    {
+      "studentId": "NP2023022",
+      "fullName": "Aditi Saxena",
+      "email": "aditi.saxena@neuropredict.edu",
+      "department": "Electronics & Communication",
+      "semester": 4,
+      "section": "B",
+      "enrollmentYear": 2024,
+      "attendance": 78,
+      "internalMarks": 72,
+      "previousGPA": 7.5,
+      "assignmentCompletion": 79,
+      "weeklyStudyHours": 16.5,
+      "previousPerformance": 74,
+      "subjectsNeedingImprovement": 1,
+      "participationScore": 74,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 7.21,
+          "attendance": 75.8,
+          "score": 70.6
+        },
+        {
+          "month": "Jun",
+          "gpa": 7.22,
+          "attendance": 75.3,
+          "score": 70.4
+        },
+        {
+          "month": "Jul",
+          "gpa": 7.34,
+          "attendance": 76.7,
+          "score": 72.1
+        },
+        {
+          "month": "Aug",
+          "gpa": 7.39,
+          "attendance": 76.8,
+          "score": 72.5
+        },
+        {
+          "month": "Sep",
+          "gpa": 7.5,
+          "attendance": 78.1,
+          "score": 74.1
+        },
+        {
+          "month": "Oct",
+          "gpa": 7.59,
+          "attendance": 78.9,
+          "score": 75.2
+        }
+      ],
+      "id": "stu_d0062eb05715",
+      "createdAt": "2026-11-19T02:47:47.373Z",
+      "updatedAt": "2026-11-19T02:47:47.373Z"
+    },
+    {
+      "studentId": "NP2023021",
+      "fullName": "Pranav Gokhale",
+      "email": "pranav.gokhale@neuropredict.edu",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 5,
+      "section": "C",
+      "enrollmentYear": 2024,
+      "attendance": 55,
+      "internalMarks": 48,
+      "previousGPA": 5.3,
+      "assignmentCompletion": 50,
+      "weeklyStudyHours": 8,
+      "previousPerformance": 52,
+      "subjectsNeedingImprovement": 3,
+      "participationScore": 47,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 5,
+          "attendance": 52.7,
+          "score": 48.5
+        },
+        {
+          "month": "Jun",
+          "gpa": 4.97,
+          "attendance": 51.6,
+          "score": 47.7
+        },
+        {
+          "month": "Jul",
+          "gpa": 5.06,
+          "attendance": 52.4,
+          "score": 48.8
+        },
+        {
+          "month": "Aug",
+          "gpa": 5.15,
+          "attendance": 53.2,
+          "score": 49.9
+        },
+        {
+          "month": "Sep",
+          "gpa": 5.35,
+          "attendance": 55.8,
+          "score": 52.8
+        },
+        {
+          "month": "Oct",
+          "gpa": 5.41,
+          "attendance": 56.2,
+          "score": 53.5
+        }
+      ],
+      "id": "stu_d74ae6156597",
+      "createdAt": "2026-11-19T02:47:47.372Z",
+      "updatedAt": "2026-11-19T02:47:47.372Z"
+    },
+    {
+      "studentId": "NP2023020",
+      "fullName": "Nandini Iyer",
+      "email": "nandini.iyer@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 3,
+      "section": "A",
+      "enrollmentYear": 2025,
+      "attendance": 90,
+      "internalMarks": 85,
+      "previousGPA": 8.7,
+      "assignmentCompletion": 91,
+      "weeklyStudyHours": 22,
+      "previousPerformance": 86,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 88,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.3,
+          "attendance": 86.1,
+          "score": 80.9
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.43,
+          "attendance": 87.5,
+          "score": 82.6
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.46,
+          "attendance": 87.3,
+          "score": 82.7
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.59,
+          "attendance": 88.9,
+          "score": 84.6
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.68,
+          "attendance": 89.6,
+          "score": 85.6
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.76,
+          "attendance": 90.4,
+          "score": 86.7
+        }
+      ],
+      "id": "stu_0edcf07e5cd4",
+      "createdAt": "2026-11-19T02:47:47.372Z",
+      "updatedAt": "2026-11-19T02:47:47.372Z"
+    },
+    {
+      "studentId": "NP2023019",
+      "fullName": "Manav Gupta",
+      "email": "manav.gupta@neuropredict.edu",
+      "department": "Civil Engineering",
+      "semester": 4,
+      "section": "A",
+      "enrollmentYear": 2024,
+      "attendance": 62,
+      "internalMarks": 54,
+      "previousGPA": 5.9,
+      "assignmentCompletion": 60,
+      "weeklyStudyHours": 10,
+      "previousPerformance": 56,
+      "subjectsNeedingImprovement": 2,
+      "participationScore": 53,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 5.6,
+          "attendance": 59.6,
+          "score": 52.4
+        },
+        {
+          "month": "Jun",
+          "gpa": 5.58,
+          "attendance": 58.7,
+          "score": 51.8
+        },
+        {
+          "month": "Jul",
+          "gpa": 5.73,
+          "attendance": 60.6,
+          "score": 54
+        },
+        {
+          "month": "Aug",
+          "gpa": 5.85,
+          "attendance": 61.9,
+          "score": 55.6
+        },
+        {
+          "month": "Sep",
+          "gpa": 5.85,
+          "attendance": 61.2,
+          "score": 55.2
+        },
+        {
+          "month": "Oct",
+          "gpa": 6.03,
+          "attendance": 63.4,
+          "score": 57.7
+        }
+      ],
+      "id": "stu_64d337fc724c",
+      "createdAt": "2026-11-19T02:47:47.372Z",
+      "updatedAt": "2026-11-19T02:47:47.372Z"
+    },
+    {
+      "studentId": "NP2023018",
+      "fullName": "Kavya Subramanian",
+      "email": "kavya.subramanian@neuropredict.edu",
+      "department": "Electronics & Communication",
+      "semester": 6,
+      "section": "A",
+      "enrollmentYear": 2023,
+      "attendance": 94,
+      "internalMarks": 91,
+      "previousGPA": 9.2,
+      "assignmentCompletion": 95,
+      "weeklyStudyHours": 27,
+      "previousPerformance": 92,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 93,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.9,
+          "attendance": 91.6,
+          "score": 88.4
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.96,
+          "attendance": 92,
+          "score": 89.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 9.03,
+          "attendance": 92.4,
+          "score": 89.8
+        },
+        {
+          "month": "Aug",
+          "gpa": 9.08,
+          "attendance": 92.7,
+          "score": 90.4
+        },
+        {
+          "month": "Sep",
+          "gpa": 9.17,
+          "attendance": 93.5,
+          "score": 91.5
+        },
+        {
+          "month": "Oct",
+          "gpa": 9.23,
+          "attendance": 93.8,
+          "score": 92.1
+        }
+      ],
+      "id": "stu_0fddb93b47d8",
+      "createdAt": "2026-11-19T02:47:47.371Z",
+      "updatedAt": "2026-11-19T02:47:47.371Z"
+    },
+    {
+      "studentId": "NP2023017",
+      "fullName": "Harshvardhan Patel",
+      "email": "harsh.patel@neuropredict.edu",
+      "department": "Mechanical Engineering",
+      "semester": 7,
+      "section": "A",
+      "enrollmentYear": 2022,
+      "attendance": 86,
+      "internalMarks": 80,
+      "previousGPA": 8.2,
+      "assignmentCompletion": 88,
+      "weeklyStudyHours": 20,
+      "previousPerformance": 81,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 80,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 7.84,
+          "attendance": 82.6,
+          "score": 76.4
+        },
+        {
+          "month": "Jun",
+          "gpa": 7.91,
+          "attendance": 83.2,
+          "score": 77.3
+        },
+        {
+          "month": "Jul",
+          "gpa": 7.96,
+          "attendance": 83.3,
+          "score": 77.7
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.08,
+          "attendance": 84.6,
+          "score": 79.3
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.15,
+          "attendance": 85.2,
+          "score": 80.2
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.32,
+          "attendance": 87.4,
+          "score": 82.7
+        }
+      ],
+      "id": "stu_fc13c167da72",
+      "createdAt": "2026-11-19T02:47:47.371Z",
+      "updatedAt": "2026-11-19T02:47:47.371Z"
+    },
+    {
+      "studentId": "NP2023016",
+      "fullName": "Ritika Sen",
+      "email": "ritika.sen@neuropredict.edu",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 6,
+      "section": "B",
+      "enrollmentYear": 2023,
+      "attendance": 76,
+      "internalMarks": 68,
+      "previousGPA": 7.1,
+      "assignmentCompletion": 74,
+      "weeklyStudyHours": 15,
+      "previousPerformance": 70,
+      "subjectsNeedingImprovement": 1,
+      "participationScore": 72,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 6.76,
+          "attendance": 72.9,
+          "score": 65.7
+        },
+        {
+          "month": "Jun",
+          "gpa": 6.79,
+          "attendance": 72.9,
+          "score": 66
+        },
+        {
+          "month": "Jul",
+          "gpa": 6.95,
+          "attendance": 74.9,
+          "score": 68.3
+        },
+        {
+          "month": "Aug",
+          "gpa": 7.01,
+          "attendance": 75.1,
+          "score": 68.8
+        },
+        {
+          "month": "Sep",
+          "gpa": 7.16,
+          "attendance": 77,
+          "score": 71
+        },
+        {
+          "month": "Oct",
+          "gpa": 7.22,
+          "attendance": 77.4,
+          "score": 71.7
+        }
+      ],
+      "id": "stu_cc089c354afa",
+      "createdAt": "2026-11-19T02:47:47.371Z",
+      "updatedAt": "2026-11-19T02:47:47.371Z"
+    },
+    {
+      "studentId": "NP2023015",
+      "fullName": "Devansh Kapoor",
+      "email": "devansh.kapoor@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 4,
+      "section": "B",
+      "enrollmentYear": 2024,
+      "attendance": 44,
+      "internalMarks": 34,
+      "previousGPA": 4.1,
+      "assignmentCompletion": 35,
+      "weeklyStudyHours": 4,
+      "previousPerformance": 39,
+      "subjectsNeedingImprovement": 5,
+      "participationScore": 31,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 3.7,
+          "attendance": 40,
+          "score": 33.8
+        },
+        {
+          "month": "Jun",
+          "gpa": 3.83,
+          "attendance": 41.4,
+          "score": 35.5
+        },
+        {
+          "month": "Jul",
+          "gpa": 3.98,
+          "attendance": 43.3,
+          "score": 37.7
+        },
+        {
+          "month": "Aug",
+          "gpa": 4.03,
+          "attendance": 43.6,
+          "score": 38.3
+        },
+        {
+          "month": "Sep",
+          "gpa": 4.13,
+          "attendance": 44.4,
+          "score": 39.4
+        },
+        {
+          "month": "Oct",
+          "gpa": 4.19,
+          "attendance": 44.8,
+          "score": 40.1
+        }
+      ],
+      "id": "stu_87c964924949",
+      "createdAt": "2026-11-19T02:47:47.371Z",
+      "updatedAt": "2026-11-19T02:47:47.371Z"
+    },
+    {
+      "studentId": "NP2023014",
+      "fullName": "Tanvi Agarwal",
+      "email": "tanvi.agarwal@neuropredict.edu",
+      "department": "Civil Engineering",
+      "semester": 5,
+      "section": "B",
+      "enrollmentYear": 2024,
+      "attendance": 82,
+      "internalMarks": 75,
+      "previousGPA": 7.8,
+      "assignmentCompletion": 84,
+      "weeklyStudyHours": 18,
+      "previousPerformance": 77,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 79,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 7.42,
+          "attendance": 78.3,
+          "score": 72.1
+        },
+        {
+          "month": "Jun",
+          "gpa": 7.56,
+          "attendance": 80,
+          "score": 74.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 7.59,
+          "attendance": 79.8,
+          "score": 74.2
+        },
+        {
+          "month": "Aug",
+          "gpa": 7.66,
+          "attendance": 80.4,
+          "score": 75.1
+        },
+        {
+          "month": "Sep",
+          "gpa": 7.8,
+          "attendance": 82,
+          "score": 77
+        },
+        {
+          "month": "Oct",
+          "gpa": 7.9,
+          "attendance": 83,
+          "score": 78.3
+        }
+      ],
+      "id": "stu_900db1fa507b",
+      "createdAt": "2026-11-19T02:47:47.370Z",
+      "updatedAt": "2026-11-19T02:47:47.370Z"
+    },
+    {
+      "studentId": "NP2023013",
+      "fullName": "Nikhil Reddy",
+      "email": "nikhil.reddy@neuropredict.edu",
+      "department": "Electronics & Communication",
+      "semester": 3,
+      "section": "C",
+      "enrollmentYear": 2025,
+      "attendance": 69,
+      "internalMarks": 60,
+      "previousGPA": 6.4,
+      "assignmentCompletion": 66,
+      "weeklyStudyHours": 12,
+      "previousPerformance": 62,
+      "subjectsNeedingImprovement": 2,
+      "participationScore": 61,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 6.05,
+          "attendance": 65.8,
+          "score": 57.6
+        },
+        {
+          "month": "Jun",
+          "gpa": 6.19,
+          "attendance": 67.6,
+          "score": 59.7
+        },
+        {
+          "month": "Jul",
+          "gpa": 6.24,
+          "attendance": 67.6,
+          "score": 60
+        },
+        {
+          "month": "Aug",
+          "gpa": 6.25,
+          "attendance": 67.2,
+          "score": 59.9
+        },
+        {
+          "month": "Sep",
+          "gpa": 6.37,
+          "attendance": 68.5,
+          "score": 61.5
+        },
+        {
+          "month": "Oct",
+          "gpa": 6.51,
+          "attendance": 70.2,
+          "score": 63.5
+        }
+      ],
+      "id": "stu_770c1cb4832a",
+      "createdAt": "2026-11-19T02:47:47.370Z",
+      "updatedAt": "2026-11-19T02:47:47.370Z"
+    },
+    {
+      "studentId": "NP2023012",
+      "fullName": "Ishita Banerjee",
+      "email": "ishita.banerjee@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 8,
+      "section": "A",
+      "enrollmentYear": 2022,
+      "attendance": 89,
+      "internalMarks": 86,
+      "previousGPA": 8.8,
+      "assignmentCompletion": 90,
+      "weeklyStudyHours": 23,
+      "previousPerformance": 87,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 85,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.41,
+          "attendance": 85.1,
+          "score": 81.9
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.51,
+          "attendance": 86.1,
+          "score": 83.2
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.66,
+          "attendance": 87.9,
+          "score": 85.3
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.68,
+          "attendance": 87.7,
+          "score": 85.4
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.81,
+          "attendance": 89.2,
+          "score": 87.2
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.83,
+          "attendance": 88.9,
+          "score": 87.2
+        }
+      ],
+      "id": "stu_988403260fa2",
+      "createdAt": "2026-11-19T02:47:47.370Z",
+      "updatedAt": "2026-11-19T02:47:47.370Z"
+    },
+    {
+      "studentId": "NP2023011",
+      "fullName": "Siddharth Joshi",
+      "email": "siddharth.joshi@neuropredict.edu",
+      "department": "Mechanical Engineering",
+      "semester": 6,
+      "section": "A",
+      "enrollmentYear": 2023,
+      "attendance": 53,
+      "internalMarks": 43,
+      "previousGPA": 5,
+      "assignmentCompletion": 47,
+      "weeklyStudyHours": 6.5,
+      "previousPerformance": 48,
+      "subjectsNeedingImprovement": 4,
+      "participationScore": 42,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 4.62,
+          "attendance": 49.3,
+          "score": 43.1
+        },
+        {
+          "month": "Jun",
+          "gpa": 4.68,
+          "attendance": 49.7,
+          "score": 43.8
+        },
+        {
+          "month": "Jul",
+          "gpa": 4.77,
+          "attendance": 50.5,
+          "score": 44.9
+        },
+        {
+          "month": "Aug",
+          "gpa": 4.94,
+          "attendance": 52.7,
+          "score": 47.4
+        },
+        {
+          "month": "Sep",
+          "gpa": 5.06,
+          "attendance": 54,
+          "score": 49
+        },
+        {
+          "month": "Oct",
+          "gpa": 5.05,
+          "attendance": 53.1,
+          "score": 48.4
+        }
+      ],
+      "id": "stu_08a7623148ea",
+      "createdAt": "2026-11-19T02:47:47.370Z",
+      "updatedAt": "2026-11-19T02:47:47.370Z"
+    },
+    {
+      "studentId": "NP2023010",
+      "fullName": "Priya Chatterjee",
+      "email": "priya.chatterjee@neuropredict.edu",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 4,
+      "section": "A",
+      "enrollmentYear": 2024,
+      "attendance": 93,
+      "internalMarks": 90,
+      "previousGPA": 9.1,
+      "assignmentCompletion": 96,
+      "weeklyStudyHours": 26,
+      "previousPerformance": 91,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 90,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.73,
+          "attendance": 89.6,
+          "score": 86.4
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.86,
+          "attendance": 91,
+          "score": 88.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.87,
+          "attendance": 90.5,
+          "score": 87.9
+        },
+        {
+          "month": "Aug",
+          "gpa": 9.04,
+          "attendance": 92.7,
+          "score": 90.4
+        },
+        {
+          "month": "Sep",
+          "gpa": 9.04,
+          "attendance": 91.9,
+          "score": 89.9
+        },
+        {
+          "month": "Oct",
+          "gpa": 9.2,
+          "attendance": 94,
+          "score": 92.3
+        }
+      ],
+      "id": "stu_628245f2bb9b",
+      "createdAt": "2026-11-19T02:47:47.369Z",
+      "updatedAt": "2026-11-19T02:47:47.369Z"
+    },
+    {
+      "studentId": "NP2023009",
+      "fullName": "Arjun Menon",
+      "email": "arjun.menon@neuropredict.edu",
+      "department": "Electronics & Communication",
+      "semester": 7,
+      "section": "B",
+      "enrollmentYear": 2022,
+      "attendance": 72,
+      "internalMarks": 63,
+      "previousGPA": 6.7,
+      "assignmentCompletion": 70,
+      "weeklyStudyHours": 13,
+      "previousPerformance": 66,
+      "subjectsNeedingImprovement": 1,
+      "participationScore": 68,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 6.33,
+          "attendance": 68.5,
+          "score": 61.3
+        },
+        {
+          "month": "Jun",
+          "gpa": 6.46,
+          "attendance": 70,
+          "score": 63.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 6.55,
+          "attendance": 70.9,
+          "score": 64.3
+        },
+        {
+          "month": "Aug",
+          "gpa": 6.61,
+          "attendance": 71.2,
+          "score": 64.9
+        },
+        {
+          "month": "Sep",
+          "gpa": 6.72,
+          "attendance": 72.3,
+          "score": 66.3
+        },
+        {
+          "month": "Oct",
+          "gpa": 6.81,
+          "attendance": 73.1,
+          "score": 67.4
+        }
+      ],
+      "id": "stu_14c2a8647173",
+      "createdAt": "2026-11-19T02:47:47.369Z",
+      "updatedAt": "2026-11-19T02:47:47.369Z"
+    },
+    {
+      "studentId": "NP2023008",
+      "fullName": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 5,
+      "section": "A",
+      "enrollmentYear": 2024,
+      "attendance": 84,
+      "internalMarks": 78,
+      "previousGPA": 8.1,
+      "assignmentCompletion": 86,
+      "weeklyStudyHours": 19,
+      "previousPerformance": 80,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 82,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 7.76,
+          "attendance": 81,
+          "score": 75.8
+        },
+        {
+          "month": "Jun",
+          "gpa": 7.83,
+          "attendance": 81.5,
+          "score": 76.6
+        },
+        {
+          "month": "Jul",
+          "gpa": 7.92,
+          "attendance": 82.3,
+          "score": 77.7
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.07,
+          "attendance": 84.1,
+          "score": 79.8
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.08,
+          "attendance": 83.6,
+          "score": 79.6
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.15,
+          "attendance": 84.2,
+          "score": 80.5
+        }
+      ],
+      "id": "stu_0f910cabe2e8",
+      "createdAt": "2026-11-19T02:47:47.369Z",
+      "updatedAt": "2026-11-19T02:47:47.369Z"
+    },
+    {
+      "studentId": "NP2023007",
+      "fullName": "Vikramaditya Rao",
+      "email": "vikram.rao@neuropredict.edu",
+      "department": "Civil Engineering",
+      "semester": 6,
+      "section": "C",
+      "enrollmentYear": 2023,
+      "attendance": 48,
+      "internalMarks": 39,
+      "previousGPA": 4.6,
+      "assignmentCompletion": 41,
+      "weeklyStudyHours": 5,
+      "previousPerformance": 44,
+      "subjectsNeedingImprovement": 4,
+      "participationScore": 38,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 4.19,
+          "attendance": 43.9,
+          "score": 38.7
+        },
+        {
+          "month": "Jun",
+          "gpa": 4.39,
+          "attendance": 46.5,
+          "score": 41.6
+        },
+        {
+          "month": "Jul",
+          "gpa": 4.46,
+          "attendance": 47,
+          "score": 42.4
+        },
+        {
+          "month": "Aug",
+          "gpa": 4.55,
+          "attendance": 47.8,
+          "score": 43.5
+        },
+        {
+          "month": "Sep",
+          "gpa": 4.59,
+          "attendance": 47.9,
+          "score": 43.9
+        },
+        {
+          "month": "Oct",
+          "gpa": 4.72,
+          "attendance": 49.4,
+          "score": 45.7
+        }
+      ],
+      "id": "stu_6e93c0d199cd",
+      "createdAt": "2026-11-19T02:47:47.369Z",
+      "updatedAt": "2026-11-19T02:47:47.369Z"
+    },
+    {
+      "studentId": "NP2023006",
+      "fullName": "Ananya Deshmukh",
+      "email": "ananya.deshmukh@neuropredict.edu",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 7,
+      "section": "A",
+      "enrollmentYear": 2022,
+      "attendance": 91,
+      "internalMarks": 87,
+      "previousGPA": 8.9,
+      "assignmentCompletion": 94,
+      "weeklyStudyHours": 24,
+      "previousPerformance": 88,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 89,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.6,
+          "attendance": 88.7,
+          "score": 84.5
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.6,
+          "attendance": 88,
+          "score": 84.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.72,
+          "attendance": 89.4,
+          "score": 85.8
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.79,
+          "attendance": 89.8,
+          "score": 86.5
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.93,
+          "attendance": 91.6,
+          "score": 88.6
+        },
+        {
+          "month": "Oct",
+          "gpa": 9.03,
+          "attendance": 92.4,
+          "score": 89.7
+        }
+      ],
+      "id": "stu_a42a0feaae43",
+      "createdAt": "2026-11-19T02:47:47.369Z",
+      "updatedAt": "2026-11-19T02:47:47.369Z"
+    },
+    {
+      "studentId": "NP2023005",
+      "fullName": "Kabir Malhotra",
+      "email": "kabir.malhotra@neuropredict.edu",
+      "department": "Mechanical Engineering",
+      "semester": 4,
+      "section": "B",
+      "enrollmentYear": 2024,
+      "attendance": 64,
+      "internalMarks": 57,
+      "previousGPA": 6.1,
+      "assignmentCompletion": 63,
+      "weeklyStudyHours": 11,
+      "previousPerformance": 59,
+      "subjectsNeedingImprovement": 2,
+      "participationScore": 55,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 5.69,
+          "attendance": 59.9,
+          "score": 53.7
+        },
+        {
+          "month": "Jun",
+          "gpa": 5.87,
+          "attendance": 62.2,
+          "score": 56.3
+        },
+        {
+          "month": "Jul",
+          "gpa": 5.97,
+          "attendance": 63.2,
+          "score": 57.6
+        },
+        {
+          "month": "Aug",
+          "gpa": 5.95,
+          "attendance": 62.1,
+          "score": 56.8
+        },
+        {
+          "month": "Sep",
+          "gpa": 6.15,
+          "attendance": 64.9,
+          "score": 59.9
+        },
+        {
+          "month": "Oct",
+          "gpa": 6.2,
+          "attendance": 65,
+          "score": 60.3
+        }
+      ],
+      "id": "stu_87f42b96bfc2",
+      "createdAt": "2026-11-19T02:47:47.368Z",
+      "updatedAt": "2026-11-19T02:47:47.368Z"
+    },
+    {
+      "studentId": "NP2023004",
+      "fullName": "Meera Krishnan",
+      "email": "meera.krishnan@neuropredict.edu",
+      "department": "Electronics & Communication",
+      "semester": 5,
+      "section": "A",
+      "enrollmentYear": 2024,
+      "attendance": 79,
+      "internalMarks": 71,
+      "previousGPA": 7.4,
+      "assignmentCompletion": 80,
+      "weeklyStudyHours": 16,
+      "previousPerformance": 73,
+      "subjectsNeedingImprovement": 1,
+      "participationScore": 76,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 7.03,
+          "attendance": 75.5,
+          "score": 68.3
+        },
+        {
+          "month": "Jun",
+          "gpa": 7.2,
+          "attendance": 77.6,
+          "score": 70.7
+        },
+        {
+          "month": "Jul",
+          "gpa": 7.16,
+          "attendance": 76.3,
+          "score": 69.7
+        },
+        {
+          "month": "Aug",
+          "gpa": 7.28,
+          "attendance": 77.6,
+          "score": 71.3
+        },
+        {
+          "month": "Sep",
+          "gpa": 7.34,
+          "attendance": 78,
+          "score": 72
+        },
+        {
+          "month": "Oct",
+          "gpa": 7.5,
+          "attendance": 80,
+          "score": 74.3
+        }
+      ],
+      "id": "stu_bfda058c79ed",
+      "createdAt": "2026-11-19T02:47:47.368Z",
+      "updatedAt": "2026-11-19T02:47:47.368Z"
+    },
+    {
+      "studentId": "NP2023003",
+      "fullName": "Rohan Verma",
+      "email": "rohan.verma@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 6,
+      "section": "B",
+      "enrollmentYear": 2023,
+      "attendance": 58,
+      "internalMarks": 46,
+      "previousGPA": 5.4,
+      "assignmentCompletion": 52,
+      "weeklyStudyHours": 7,
+      "previousPerformance": 51,
+      "subjectsNeedingImprovement": 3,
+      "participationScore": 44,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 5.11,
+          "attendance": 55.8,
+          "score": 47.6
+        },
+        {
+          "month": "Jun",
+          "gpa": 5.14,
+          "attendance": 55.7,
+          "score": 47.8
+        },
+        {
+          "month": "Jul",
+          "gpa": 5.16,
+          "attendance": 55.4,
+          "score": 47.8
+        },
+        {
+          "month": "Aug",
+          "gpa": 5.32,
+          "attendance": 57.3,
+          "score": 50
+        },
+        {
+          "month": "Sep",
+          "gpa": 5.46,
+          "attendance": 59,
+          "score": 52
+        },
+        {
+          "month": "Oct",
+          "gpa": 5.52,
+          "attendance": 59.4,
+          "score": 52.7
+        }
+      ],
+      "id": "stu_93b86666fda5",
+      "createdAt": "2026-11-19T02:47:47.368Z",
+      "updatedAt": "2026-11-19T02:47:47.368Z"
+    },
+    {
+      "studentId": "NP2023002",
+      "fullName": "Diya Nair",
+      "email": "diya.nair@neuropredict.edu",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 6,
+      "section": "A",
+      "enrollmentYear": 2023,
+      "attendance": 95,
+      "internalMarks": 93,
+      "previousGPA": 9.4,
+      "assignmentCompletion": 98,
+      "weeklyStudyHours": 28,
+      "previousPerformance": 94,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 92,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 9.05,
+          "attendance": 91.9,
+          "score": 89.7
+        },
+        {
+          "month": "Jun",
+          "gpa": 9.16,
+          "attendance": 93,
+          "score": 91.1
+        },
+        {
+          "month": "Jul",
+          "gpa": 9.18,
+          "attendance": 92.7,
+          "score": 91.1
+        },
+        {
+          "month": "Aug",
+          "gpa": 9.29,
+          "attendance": 93.9,
+          "score": 92.6
+        },
+        {
+          "month": "Sep",
+          "gpa": 9.36,
+          "attendance": 94.3,
+          "score": 93.3
+        },
+        {
+          "month": "Oct",
+          "gpa": 9.47,
+          "attendance": 95.5,
+          "score": 94.8
+        }
+      ],
+      "id": "stu_f34d5b9ee9b6",
+      "createdAt": "2026-11-19T02:47:47.368Z",
+      "updatedAt": "2026-11-19T02:47:47.368Z"
+    },
+    {
+      "studentId": "NP2023001",
+      "fullName": "Aarav Sharma",
+      "email": "aarav.sharma@neuropredict.edu",
+      "department": "Computer Science & Engineering",
+      "semester": 6,
+      "section": "A",
+      "enrollmentYear": 2023,
+      "attendance": 88,
+      "internalMarks": 84,
+      "previousGPA": 8.6,
+      "assignmentCompletion": 92,
+      "weeklyStudyHours": 22,
+      "previousPerformance": 85,
+      "subjectsNeedingImprovement": 0,
+      "participationScore": 86,
+      "history": [
+        {
+          "month": "May",
+          "gpa": 8.23,
+          "attendance": 84.5,
+          "score": 80.3
+        },
+        {
+          "month": "Jun",
+          "gpa": 8.28,
+          "attendance": 84.6,
+          "score": 80.7
+        },
+        {
+          "month": "Jul",
+          "gpa": 8.41,
+          "attendance": 86.1,
+          "score": 82.5
+        },
+        {
+          "month": "Aug",
+          "gpa": 8.49,
+          "attendance": 86.8,
+          "score": 83.5
+        },
+        {
+          "month": "Sep",
+          "gpa": 8.54,
+          "attendance": 87.1,
+          "score": 84.1
+        },
+        {
+          "month": "Oct",
+          "gpa": 8.7,
+          "attendance": 89,
+          "score": 86.3
+        }
+      ],
+      "userId": "usr_f82bd6a9490b",
+      "id": "stu_9ba39b2d3aa4",
+      "createdAt": "2026-11-19T02:47:47.368Z",
+      "updatedAt": "2026-11-19T02:47:47.368Z"
+    }
+  ],
+  "predictions": [
+    {
+      "studentId": "NP2023003",
+      "studentName": "Rohan Verma",
+      "department": "Computer Science & Engineering",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 58,
+        "internalMarks": 46,
+        "previousGPA": 5.4,
+        "assignmentCompletion": 52,
+        "weeklyStudyHours": 7,
+        "previousPerformance": 51,
+        "subjectsNeedingImprovement": 3,
+        "participationScore": 44,
+        "semester": 6
+      },
+      "predictedScore": 41.62,
+      "predictedGrade": "Needs Improvement",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 36.1,
+        "upperBound": 47.1,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 58,
+          "normalizedValue": -0.855,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 46,
+          "normalizedValue": -0.998,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 3,
+          "normalizedValue": 0.651,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 51,
+          "normalizedValue": -0.945,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 7,
+          "normalizedValue": -1.6,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 5.4,
+          "normalizedValue": -0.787,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 52,
+          "normalizedValue": -0.846,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 44,
+          "normalizedValue": -1.091,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "admin@neuropredict.edu",
+      "id": "pred_ab1b18f76321",
+      "createdAt": "2026-11-19T02:50:55.568Z"
+    },
+    {
+      "studentId": "NP2023001",
+      "studentName": "Aarav Sharma",
+      "department": "Computer Science & Engineering",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 88,
+        "internalMarks": 84,
+        "previousGPA": 8.6,
+        "assignmentCompletion": 92,
+        "weeklyStudyHours": 22,
+        "previousPerformance": 85,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 86,
+        "semester": 6
+      },
+      "predictedScore": 96.53,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 91,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 88,
+          "normalizedValue": 0.816,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 84,
+          "normalizedValue": 0.845,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 85,
+          "normalizedValue": 0.875,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 22,
+          "normalizedValue": 0.142,
+          "importancePct": 7.1,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.6,
+          "normalizedValue": 0.895,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 92,
+          "normalizedValue": 1.107,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 86,
+          "normalizedValue": 0.949,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_011a5b0d6033",
+      "createdAt": "2026-11-19T02:47:49.703Z"
+    },
+    {
+      "studentId": "NP2023002",
+      "studentName": "Diya Nair",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 95,
+        "internalMarks": 93,
+        "previousGPA": 9.4,
+        "assignmentCompletion": 98,
+        "weeklyStudyHours": 28,
+        "previousPerformance": 94,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 92,
+        "semester": 6
+      },
+      "predictedScore": 98.55,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 93,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 95,
+          "normalizedValue": 1.206,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 93,
+          "normalizedValue": 1.282,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 94,
+          "normalizedValue": 1.357,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 28,
+          "normalizedValue": 0.839,
+          "importancePct": 7.1,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 9.4,
+          "normalizedValue": 1.315,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 98,
+          "normalizedValue": 1.4,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 92,
+          "normalizedValue": 1.24,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_a055935a5664",
+      "createdAt": "2026-11-19T02:47:49.699Z"
+    },
+    {
+      "studentId": "NP2023003",
+      "studentName": "Rohan Verma",
+      "department": "Computer Science & Engineering",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 58,
+        "internalMarks": 46,
+        "previousGPA": 5.4,
+        "assignmentCompletion": 52,
+        "weeklyStudyHours": 7,
+        "previousPerformance": 51,
+        "subjectsNeedingImprovement": 3,
+        "participationScore": 44,
+        "semester": 6
+      },
+      "predictedScore": 41.62,
+      "predictedGrade": "Needs Improvement",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 36.1,
+        "upperBound": 47.1,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 58,
+          "normalizedValue": -0.855,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 46,
+          "normalizedValue": -0.998,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 3,
+          "normalizedValue": 0.651,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 51,
+          "normalizedValue": -0.945,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 7,
+          "normalizedValue": -1.6,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 5.4,
+          "normalizedValue": -0.787,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 52,
+          "normalizedValue": -0.846,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 44,
+          "normalizedValue": -1.091,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_4555c87d4fc1",
+      "createdAt": "2026-11-19T02:47:49.695Z"
+    },
+    {
+      "studentId": "NP2023004",
+      "studentName": "Meera Krishnan",
+      "department": "Electronics & Communication",
+      "semester": 5,
+      "inputFeatures": {
+        "attendance": 79,
+        "internalMarks": 71,
+        "previousGPA": 7.4,
+        "assignmentCompletion": 80,
+        "weeklyStudyHours": 16,
+        "previousPerformance": 73,
+        "subjectsNeedingImprovement": 1,
+        "participationScore": 76,
+        "semester": 5
+      },
+      "predictedScore": 85.2,
+      "predictedGrade": "Very Good",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 79.7,
+        "upperBound": 90.7,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 79,
+          "normalizedValue": 0.315,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 71,
+          "normalizedValue": 0.215,
+          "importancePct": 20.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 1,
+          "normalizedValue": -0.633,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 73,
+          "normalizedValue": 0.233,
+          "importancePct": 8.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 16,
+          "normalizedValue": -0.555,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 7.4,
+          "normalizedValue": 0.264,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 80,
+          "normalizedValue": 0.521,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 76,
+          "normalizedValue": 0.463,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 5,
+          "normalizedValue": 0.248,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_bae8c902e9bc",
+      "createdAt": "2026-11-19T02:47:49.691Z"
+    },
+    {
+      "studentId": "NP2023005",
+      "studentName": "Kabir Malhotra",
+      "department": "Mechanical Engineering",
+      "semester": 4,
+      "inputFeatures": {
+        "attendance": 64,
+        "internalMarks": 57,
+        "previousGPA": 6.1,
+        "assignmentCompletion": 63,
+        "weeklyStudyHours": 11,
+        "previousPerformance": 59,
+        "subjectsNeedingImprovement": 2,
+        "participationScore": 55,
+        "semester": 4
+      },
+      "predictedScore": 58.03,
+      "predictedGrade": "Needs Improvement",
+      "riskCategory": "Medium Risk",
+      "uncertaintyBand": {
+        "lowerBound": 52.5,
+        "upperBound": 63.5,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 64,
+          "normalizedValue": -0.521,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 57,
+          "normalizedValue": -0.464,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 2,
+          "normalizedValue": 0.009,
+          "importancePct": 19.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 59,
+          "normalizedValue": -0.516,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 11,
+          "normalizedValue": -1.135,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 6.1,
+          "normalizedValue": -0.419,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 63,
+          "normalizedValue": -0.309,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 55,
+          "normalizedValue": -0.557,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 4,
+          "normalizedValue": -0.199,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_6b9ade214f5d",
+      "createdAt": "2026-11-19T02:47:49.687Z"
+    },
+    {
+      "studentId": "NP2023006",
+      "studentName": "Ananya Deshmukh",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 7,
+      "inputFeatures": {
+        "attendance": 91,
+        "internalMarks": 87,
+        "previousGPA": 8.9,
+        "assignmentCompletion": 94,
+        "weeklyStudyHours": 24,
+        "previousPerformance": 88,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 89,
+        "semester": 7
+      },
+      "predictedScore": 97.52,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 92,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 91,
+          "normalizedValue": 0.983,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 87,
+          "normalizedValue": 0.991,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 88,
+          "normalizedValue": 1.036,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 24,
+          "normalizedValue": 0.375,
+          "importancePct": 7.1,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.9,
+          "normalizedValue": 1.053,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 94,
+          "normalizedValue": 1.204,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 89,
+          "normalizedValue": 1.095,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 7,
+          "normalizedValue": 1.143,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_40acfcac2315",
+      "createdAt": "2026-11-19T02:47:49.683Z"
+    },
+    {
+      "studentId": "NP2023007",
+      "studentName": "Vikramaditya Rao",
+      "department": "Civil Engineering",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 48,
+        "internalMarks": 39,
+        "previousGPA": 4.6,
+        "assignmentCompletion": 41,
+        "weeklyStudyHours": 5,
+        "previousPerformance": 44,
+        "subjectsNeedingImprovement": 4,
+        "participationScore": 38,
+        "semester": 6
+      },
+      "predictedScore": 26.4,
+      "predictedGrade": "Critical",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 20.9,
+        "upperBound": 31.9,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 48,
+          "normalizedValue": -1.413,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 39,
+          "normalizedValue": -1.338,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 4,
+          "normalizedValue": 1.293,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 44,
+          "normalizedValue": -1.319,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 5,
+          "normalizedValue": -1.832,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 4.6,
+          "normalizedValue": -1.207,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 41,
+          "normalizedValue": -1.383,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 38,
+          "normalizedValue": -1.382,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_224fc74885d7",
+      "createdAt": "2026-11-19T02:47:49.679Z"
+    },
+    {
+      "studentId": "NP2023008",
+      "studentName": "Sneha Kulkarni",
+      "department": "Computer Science & Engineering",
+      "semester": 5,
+      "inputFeatures": {
+        "attendance": 84,
+        "internalMarks": 78,
+        "previousGPA": 8.1,
+        "assignmentCompletion": 86,
+        "weeklyStudyHours": 19,
+        "previousPerformance": 80,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 82,
+        "semester": 5
+      },
+      "predictedScore": 93.99,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 88.5,
+        "upperBound": 99.5,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 84,
+          "normalizedValue": 0.593,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 78,
+          "normalizedValue": 0.554,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 80,
+          "normalizedValue": 0.608,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 19,
+          "normalizedValue": -0.206,
+          "importancePct": 7.1,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.1,
+          "normalizedValue": 0.632,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 86,
+          "normalizedValue": 0.814,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 82,
+          "normalizedValue": 0.755,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 5,
+          "normalizedValue": 0.248,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_66ede629382b",
+      "createdAt": "2026-11-19T02:47:49.675Z"
+    },
+    {
+      "studentId": "NP2023009",
+      "studentName": "Arjun Menon",
+      "department": "Electronics & Communication",
+      "semester": 7,
+      "inputFeatures": {
+        "attendance": 72,
+        "internalMarks": 63,
+        "previousGPA": 6.7,
+        "assignmentCompletion": 70,
+        "weeklyStudyHours": 13,
+        "previousPerformance": 66,
+        "subjectsNeedingImprovement": 1,
+        "participationScore": 68,
+        "semester": 7
+      },
+      "predictedScore": 73.78,
+      "predictedGrade": "Good",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 68.3,
+        "upperBound": 79.3,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 72,
+          "normalizedValue": -0.075,
+          "importancePct": 29.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 63,
+          "normalizedValue": -0.173,
+          "importancePct": 20.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 1,
+          "normalizedValue": -0.633,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 66,
+          "normalizedValue": -0.142,
+          "importancePct": 8.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 13,
+          "normalizedValue": -0.903,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 6.7,
+          "normalizedValue": -0.103,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 70,
+          "normalizedValue": 0.033,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 68,
+          "normalizedValue": 0.075,
+          "importancePct": 1.6,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 7,
+          "normalizedValue": 1.143,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_e09e1e8e5b36",
+      "createdAt": "2026-11-19T02:47:49.672Z"
+    },
+    {
+      "studentId": "NP2023010",
+      "studentName": "Priya Chatterjee",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 4,
+      "inputFeatures": {
+        "attendance": 93,
+        "internalMarks": 90,
+        "previousGPA": 9.1,
+        "assignmentCompletion": 96,
+        "weeklyStudyHours": 26,
+        "previousPerformance": 91,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 90,
+        "semester": 4
+      },
+      "predictedScore": 98.08,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 92.6,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 93,
+          "normalizedValue": 1.095,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 90,
+          "normalizedValue": 1.137,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 91,
+          "normalizedValue": 1.196,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 26,
+          "normalizedValue": 0.607,
+          "importancePct": 7.1,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 9.1,
+          "normalizedValue": 1.158,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 96,
+          "normalizedValue": 1.302,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 90,
+          "normalizedValue": 1.143,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 4,
+          "normalizedValue": -0.199,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_5aabd900b237",
+      "createdAt": "2026-11-19T02:47:49.668Z"
+    },
+    {
+      "studentId": "NP2023011",
+      "studentName": "Siddharth Joshi",
+      "department": "Mechanical Engineering",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 53,
+        "internalMarks": 43,
+        "previousGPA": 5,
+        "assignmentCompletion": 47,
+        "weeklyStudyHours": 6.5,
+        "previousPerformance": 48,
+        "subjectsNeedingImprovement": 4,
+        "participationScore": 42,
+        "semester": 6
+      },
+      "predictedScore": 32.07,
+      "predictedGrade": "Critical",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 26.6,
+        "upperBound": 37.6,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 53,
+          "normalizedValue": -1.134,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 43,
+          "normalizedValue": -1.144,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 4,
+          "normalizedValue": 1.293,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 48,
+          "normalizedValue": -1.105,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 6.5,
+          "normalizedValue": -1.658,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 5,
+          "normalizedValue": -0.997,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 47,
+          "normalizedValue": -1.09,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 42,
+          "normalizedValue": -1.188,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_0a827c412f0a",
+      "createdAt": "2026-11-19T02:47:49.665Z"
+    },
+    {
+      "studentId": "NP2023012",
+      "studentName": "Ishita Banerjee",
+      "department": "Computer Science & Engineering",
+      "semester": 8,
+      "inputFeatures": {
+        "attendance": 89,
+        "internalMarks": 86,
+        "previousGPA": 8.8,
+        "assignmentCompletion": 90,
+        "weeklyStudyHours": 23,
+        "previousPerformance": 87,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 85,
+        "semester": 8
+      },
+      "predictedScore": 97.17,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 91.7,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 89,
+          "normalizedValue": 0.872,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 86,
+          "normalizedValue": 0.943,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 87,
+          "normalizedValue": 0.982,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 23,
+          "normalizedValue": 0.258,
+          "importancePct": 7.1,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.8,
+          "normalizedValue": 1,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 90,
+          "normalizedValue": 1.009,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 85,
+          "normalizedValue": 0.9,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 8,
+          "normalizedValue": 1.591,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_e21943b61f8c",
+      "createdAt": "2026-11-19T02:47:49.662Z"
+    },
+    {
+      "studentId": "NP2023013",
+      "studentName": "Nikhil Reddy",
+      "department": "Electronics & Communication",
+      "semester": 3,
+      "inputFeatures": {
+        "attendance": 69,
+        "internalMarks": 60,
+        "previousGPA": 6.4,
+        "assignmentCompletion": 66,
+        "weeklyStudyHours": 12,
+        "previousPerformance": 62,
+        "subjectsNeedingImprovement": 2,
+        "participationScore": 61,
+        "semester": 3
+      },
+      "predictedScore": 63.7,
+      "predictedGrade": "Average",
+      "riskCategory": "Medium Risk",
+      "uncertaintyBand": {
+        "lowerBound": 58.2,
+        "upperBound": 69.2,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 69,
+          "normalizedValue": -0.242,
+          "importancePct": 29.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 60,
+          "normalizedValue": -0.319,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 2,
+          "normalizedValue": 0.009,
+          "importancePct": 19.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 62,
+          "normalizedValue": -0.356,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 12,
+          "normalizedValue": -1.019,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 6.4,
+          "normalizedValue": -0.261,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 66,
+          "normalizedValue": -0.163,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 61,
+          "normalizedValue": -0.265,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 3,
+          "normalizedValue": -0.647,
+          "importancePct": 0.1,
+          "impactDirection": "negative"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_d4aead259546",
+      "createdAt": "2026-11-19T02:47:49.659Z"
+    },
+    {
+      "studentId": "NP2023014",
+      "studentName": "Tanvi Agarwal",
+      "department": "Civil Engineering",
+      "semester": 5,
+      "inputFeatures": {
+        "attendance": 82,
+        "internalMarks": 75,
+        "previousGPA": 7.8,
+        "assignmentCompletion": 84,
+        "weeklyStudyHours": 18,
+        "previousPerformance": 77,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 79,
+        "semester": 5
+      },
+      "predictedScore": 92.24,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 86.7,
+        "upperBound": 97.8,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 82,
+          "normalizedValue": 0.482,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 75,
+          "normalizedValue": 0.409,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 77,
+          "normalizedValue": 0.447,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 18,
+          "normalizedValue": -0.322,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 7.8,
+          "normalizedValue": 0.475,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 84,
+          "normalizedValue": 0.716,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 79,
+          "normalizedValue": 0.609,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 5,
+          "normalizedValue": 0.248,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_2dee2e1fcfc8",
+      "createdAt": "2026-11-19T02:47:49.655Z"
+    },
+    {
+      "studentId": "NP2023015",
+      "studentName": "Devansh Kapoor",
+      "department": "Computer Science & Engineering",
+      "semester": 4,
+      "inputFeatures": {
+        "attendance": 44,
+        "internalMarks": 34,
+        "previousGPA": 4.1,
+        "assignmentCompletion": 35,
+        "weeklyStudyHours": 4,
+        "previousPerformance": 39,
+        "subjectsNeedingImprovement": 5,
+        "participationScore": 31,
+        "semester": 4
+      },
+      "predictedScore": 19.24,
+      "predictedGrade": "Critical",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 13.7,
+        "upperBound": 24.8,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 44,
+          "normalizedValue": -1.635,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 34,
+          "normalizedValue": -1.58,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 5,
+          "normalizedValue": 1.934,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 39,
+          "normalizedValue": -1.587,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 4,
+          "normalizedValue": -1.948,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 4.1,
+          "normalizedValue": -1.47,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 35,
+          "normalizedValue": -1.676,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 31,
+          "normalizedValue": -1.722,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 4,
+          "normalizedValue": -0.199,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_cb6a6e5ca13d",
+      "createdAt": "2026-11-19T02:47:49.652Z"
+    },
+    {
+      "studentId": "NP2023016",
+      "studentName": "Ritika Sen",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 76,
+        "internalMarks": 68,
+        "previousGPA": 7.1,
+        "assignmentCompletion": 74,
+        "weeklyStudyHours": 15,
+        "previousPerformance": 70,
+        "subjectsNeedingImprovement": 1,
+        "participationScore": 72,
+        "semester": 6
+      },
+      "predictedScore": 80.06,
+      "predictedGrade": "Very Good",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 74.5,
+        "upperBound": 85.6,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 76,
+          "normalizedValue": 0.148,
+          "importancePct": 29.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 68,
+          "normalizedValue": 0.069,
+          "importancePct": 20.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 1,
+          "normalizedValue": -0.633,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 70,
+          "normalizedValue": 0.072,
+          "importancePct": 8.3,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 15,
+          "normalizedValue": -0.671,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 7.1,
+          "normalizedValue": 0.107,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 74,
+          "normalizedValue": 0.228,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 72,
+          "normalizedValue": 0.269,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_e0465d34b949",
+      "createdAt": "2026-11-19T02:47:49.649Z"
+    },
+    {
+      "studentId": "NP2023017",
+      "studentName": "Harshvardhan Patel",
+      "department": "Mechanical Engineering",
+      "semester": 7,
+      "inputFeatures": {
+        "attendance": 86,
+        "internalMarks": 80,
+        "previousGPA": 8.2,
+        "assignmentCompletion": 88,
+        "weeklyStudyHours": 20,
+        "previousPerformance": 81,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 80,
+        "semester": 7
+      },
+      "predictedScore": 95.19,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 89.7,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 86,
+          "normalizedValue": 0.705,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 80,
+          "normalizedValue": 0.651,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 81,
+          "normalizedValue": 0.661,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 20,
+          "normalizedValue": -0.09,
+          "importancePct": 7.1,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.2,
+          "normalizedValue": 0.685,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 88,
+          "normalizedValue": 0.912,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 80,
+          "normalizedValue": 0.658,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 7,
+          "normalizedValue": 1.143,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_3c5729bae22e",
+      "createdAt": "2026-11-19T02:47:49.646Z"
+    },
+    {
+      "studentId": "NP2023018",
+      "studentName": "Kavya Subramanian",
+      "department": "Electronics & Communication",
+      "semester": 6,
+      "inputFeatures": {
+        "attendance": 94,
+        "internalMarks": 91,
+        "previousGPA": 9.2,
+        "assignmentCompletion": 95,
+        "weeklyStudyHours": 27,
+        "previousPerformance": 92,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 93,
+        "semester": 6
+      },
+      "predictedScore": 98.25,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 92.7,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 94,
+          "normalizedValue": 1.151,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 91,
+          "normalizedValue": 1.185,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 92,
+          "normalizedValue": 1.25,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 27,
+          "normalizedValue": 0.723,
+          "importancePct": 7.1,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 9.2,
+          "normalizedValue": 1.21,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 95,
+          "normalizedValue": 1.253,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 93,
+          "normalizedValue": 1.289,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 6,
+          "normalizedValue": 0.696,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_38eafb8f8cc7",
+      "createdAt": "2026-11-19T02:47:49.643Z"
+    },
+    {
+      "studentId": "NP2023019",
+      "studentName": "Manav Gupta",
+      "department": "Civil Engineering",
+      "semester": 4,
+      "inputFeatures": {
+        "attendance": 62,
+        "internalMarks": 54,
+        "previousGPA": 5.9,
+        "assignmentCompletion": 60,
+        "weeklyStudyHours": 10,
+        "previousPerformance": 56,
+        "subjectsNeedingImprovement": 2,
+        "participationScore": 53,
+        "semester": 4
+      },
+      "predictedScore": 54.41,
+      "predictedGrade": "Needs Improvement",
+      "riskCategory": "Medium Risk",
+      "uncertaintyBand": {
+        "lowerBound": 48.9,
+        "upperBound": 59.9,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 62,
+          "normalizedValue": -0.632,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 54,
+          "normalizedValue": -0.61,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 2,
+          "normalizedValue": 0.009,
+          "importancePct": 19.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 56,
+          "normalizedValue": -0.677,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 10,
+          "normalizedValue": -1.251,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 5.9,
+          "normalizedValue": -0.524,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 60,
+          "normalizedValue": -0.456,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 53,
+          "normalizedValue": -0.654,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 4,
+          "normalizedValue": -0.199,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_5245de6778fa",
+      "createdAt": "2026-11-19T02:47:49.641Z"
+    },
+    {
+      "studentId": "NP2023020",
+      "studentName": "Nandini Iyer",
+      "department": "Computer Science & Engineering",
+      "semester": 3,
+      "inputFeatures": {
+        "attendance": 90,
+        "internalMarks": 85,
+        "previousGPA": 8.7,
+        "assignmentCompletion": 91,
+        "weeklyStudyHours": 22,
+        "previousPerformance": 86,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 88,
+        "semester": 3
+      },
+      "predictedScore": 96.78,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 91.3,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 90,
+          "normalizedValue": 0.928,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 85,
+          "normalizedValue": 0.894,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 86,
+          "normalizedValue": 0.929,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 22,
+          "normalizedValue": 0.142,
+          "importancePct": 7.1,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.7,
+          "normalizedValue": 0.948,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 91,
+          "normalizedValue": 1.058,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 88,
+          "normalizedValue": 1.046,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 3,
+          "normalizedValue": -0.647,
+          "importancePct": 0.1,
+          "impactDirection": "negative"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_e75eb42452e1",
+      "createdAt": "2026-11-19T02:47:49.638Z"
+    },
+    {
+      "studentId": "NP2023021",
+      "studentName": "Pranav Gokhale",
+      "department": "Artificial Intelligence & Data Science",
+      "semester": 5,
+      "inputFeatures": {
+        "attendance": 55,
+        "internalMarks": 48,
+        "previousGPA": 5.3,
+        "assignmentCompletion": 50,
+        "weeklyStudyHours": 8,
+        "previousPerformance": 52,
+        "subjectsNeedingImprovement": 3,
+        "participationScore": 47,
+        "semester": 5
+      },
+      "predictedScore": 39.53,
+      "predictedGrade": "Critical",
+      "riskCategory": "High Risk",
+      "uncertaintyBand": {
+        "lowerBound": 34,
+        "upperBound": 45,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 55,
+          "normalizedValue": -1.023,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 48,
+          "normalizedValue": -0.901,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 3,
+          "normalizedValue": 0.651,
+          "importancePct": 19.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 52,
+          "normalizedValue": -0.891,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 8,
+          "normalizedValue": -1.484,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 5.3,
+          "normalizedValue": -0.839,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 50,
+          "normalizedValue": -0.944,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 47,
+          "normalizedValue": -0.945,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 5,
+          "normalizedValue": 0.248,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_9fa24e04b956",
+      "createdAt": "2026-11-19T02:47:49.636Z"
+    },
+    {
+      "studentId": "NP2023022",
+      "studentName": "Aditi Saxena",
+      "department": "Electronics & Communication",
+      "semester": 4,
+      "inputFeatures": {
+        "attendance": 78,
+        "internalMarks": 72,
+        "previousGPA": 7.5,
+        "assignmentCompletion": 79,
+        "weeklyStudyHours": 16.5,
+        "previousPerformance": 74,
+        "subjectsNeedingImprovement": 1,
+        "participationScore": 74,
+        "semester": 4
+      },
+      "predictedScore": 84.89,
+      "predictedGrade": "Very Good",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 79.4,
+        "upperBound": 90.4,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 78,
+          "normalizedValue": 0.259,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 72,
+          "normalizedValue": 0.263,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 1,
+          "normalizedValue": -0.633,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 74,
+          "normalizedValue": 0.286,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 16.5,
+          "normalizedValue": -0.496,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 7.5,
+          "normalizedValue": 0.317,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 79,
+          "normalizedValue": 0.472,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 74,
+          "normalizedValue": 0.366,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 4,
+          "normalizedValue": -0.199,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_cf43c8438a2f",
+      "createdAt": "2026-11-19T02:47:49.633Z"
+    },
+    {
+      "studentId": "NP2023023",
+      "studentName": "Yashwant Thakur",
+      "department": "Mechanical Engineering",
+      "semester": 5,
+      "inputFeatures": {
+        "attendance": 67,
+        "internalMarks": 59,
+        "previousGPA": 6.3,
+        "assignmentCompletion": 65,
+        "weeklyStudyHours": 11.5,
+        "previousPerformance": 61,
+        "subjectsNeedingImprovement": 2,
+        "participationScore": 58,
+        "semester": 5
+      },
+      "predictedScore": 61.91,
+      "predictedGrade": "Average",
+      "riskCategory": "Medium Risk",
+      "uncertaintyBand": {
+        "lowerBound": 56.4,
+        "upperBound": 67.4,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 67,
+          "normalizedValue": -0.354,
+          "importancePct": 29.4,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 59,
+          "normalizedValue": -0.367,
+          "importancePct": 20.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 2,
+          "normalizedValue": 0.009,
+          "importancePct": 19.4,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 61,
+          "normalizedValue": -0.409,
+          "importancePct": 8.3,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 11.5,
+          "normalizedValue": -1.077,
+          "importancePct": 7.1,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 6.3,
+          "normalizedValue": -0.314,
+          "importancePct": 6.9,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 65,
+          "normalizedValue": -0.211,
+          "importancePct": 6.9,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 58,
+          "normalizedValue": -0.411,
+          "importancePct": 1.6,
+          "impactDirection": "negative"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 5,
+          "normalizedValue": 0.248,
+          "importancePct": 0.1,
+          "impactDirection": "neutral"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_f04bd12fd98b",
+      "createdAt": "2026-11-19T02:47:49.632Z"
+    },
+    {
+      "studentId": "NP2023024",
+      "studentName": "Shruti Bhatia",
+      "department": "Civil Engineering",
+      "semester": 8,
+      "inputFeatures": {
+        "attendance": 87,
+        "internalMarks": 82,
+        "previousGPA": 8.4,
+        "assignmentCompletion": 89,
+        "weeklyStudyHours": 21,
+        "previousPerformance": 83,
+        "subjectsNeedingImprovement": 0,
+        "participationScore": 84,
+        "semester": 8
+      },
+      "predictedScore": 96.15,
+      "predictedGrade": "Excellent",
+      "riskCategory": "Low Risk",
+      "uncertaintyBand": {
+        "lowerBound": 90.6,
+        "upperBound": 100,
+        "halfWidth": 5.51,
+        "method": "Split-Conformal 90% Prediction Interval (Validation Residuals)",
+        "calibrationCoveragePct": 90
+      },
+      "featureContributions": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "value": 87,
+          "normalizedValue": 0.761,
+          "importancePct": 29.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "value": 82,
+          "normalizedValue": 0.748,
+          "importancePct": 20.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "value": 0,
+          "normalizedValue": -1.274,
+          "importancePct": 19.4,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "value": 83,
+          "normalizedValue": 0.768,
+          "importancePct": 8.3,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "value": 21,
+          "normalizedValue": 0.026,
+          "importancePct": 7.1,
+          "impactDirection": "neutral"
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "value": 8.4,
+          "normalizedValue": 0.79,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "value": 89,
+          "normalizedValue": 0.96,
+          "importancePct": 6.9,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "value": 84,
+          "normalizedValue": 0.852,
+          "importancePct": 1.6,
+          "impactDirection": "positive"
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "value": 8,
+          "normalizedValue": 1.591,
+          "importancePct": 0.1,
+          "impactDirection": "positive"
+        }
+      ],
+      "modelVersion": "v1.0",
+      "createdBy": "system-seed",
+      "id": "pred_261d461f7e7e",
+      "createdAt": "2026-11-19T02:47:49.630Z"
+    }
+  ],
+  "modelTrainings": [
+    {
+      "id": "train-1795056469624",
+      "modelVersion": "v1.0",
+      "architecture": {
+        "inputUnits": 9,
+        "hiddenLayers": [
+          {
+            "units": 16,
+            "activation": "relu"
+          },
+          {
+            "units": 8,
+            "activation": "relu"
+          }
+        ],
+        "outputUnits": 1,
+        "outputActivation": "sigmoid",
+        "totalParameters": 305
+      },
+      "optimizer": "Adam",
+      "learningRate": 0.001,
+      "lossFunction": "Mean Squared Error (MSE)",
+      "epochs": 35,
+      "batchSize": 32,
+      "datasetSize": 1200,
+      "trainSplitSize": 840,
+      "valSplitSize": 180,
+      "testSplitSize": 180,
+      "trainingLoss": 0.000971,
+      "validationLoss": 0.001035,
+      "trainingMae": 2.446,
+      "validationMae": 2.468,
+      "testMetrics": {
+        "mse": 10.939,
+        "mae": 2.609,
+        "rmse": 3.307,
+        "r2": 0.9847,
+        "conformalHalfWidth": 5.51,
+        "empiricalCoveragePct": 90
+      },
+      "epochHistory": [
+        {
+          "epoch": 1,
+          "loss": 0.047168,
+          "valLoss": 0.024274,
+          "mae": 18.293,
+          "valMae": 13.506
+        },
+        {
+          "epoch": 2,
+          "loss": 0.015499,
+          "valLoss": 0.011397,
+          "mae": 10.341,
+          "valMae": 8.742
+        },
+        {
+          "epoch": 3,
+          "loss": 0.008566,
+          "valLoss": 0.007399,
+          "mae": 7.342,
+          "valMae": 6.66
+        },
+        {
+          "epoch": 4,
+          "loss": 0.006258,
+          "valLoss": 0.005748,
+          "mae": 6.065,
+          "valMae": 5.637
+        },
+        {
+          "epoch": 5,
+          "loss": 0.005184,
+          "valLoss": 0.004931,
+          "mae": 5.419,
+          "valMae": 5.135
+        },
+        {
+          "epoch": 6,
+          "loss": 0.004527,
+          "valLoss": 0.0044,
+          "mae": 5.022,
+          "valMae": 4.818
+        },
+        {
+          "epoch": 7,
+          "loss": 0.004074,
+          "valLoss": 0.004024,
+          "mae": 4.737,
+          "valMae": 4.601
+        },
+        {
+          "epoch": 8,
+          "loss": 0.003717,
+          "valLoss": 0.003661,
+          "mae": 4.514,
+          "valMae": 4.391
+        },
+        {
+          "epoch": 9,
+          "loss": 0.003415,
+          "valLoss": 0.003373,
+          "mae": 4.316,
+          "valMae": 4.231
+        },
+        {
+          "epoch": 10,
+          "loss": 0.003168,
+          "valLoss": 0.003107,
+          "mae": 4.168,
+          "valMae": 4.078
+        },
+        {
+          "epoch": 11,
+          "loss": 0.002933,
+          "valLoss": 0.002885,
+          "mae": 4.016,
+          "valMae": 3.949
+        },
+        {
+          "epoch": 12,
+          "loss": 0.002736,
+          "valLoss": 0.002674,
+          "mae": 3.894,
+          "valMae": 3.82
+        },
+        {
+          "epoch": 13,
+          "loss": 0.002552,
+          "valLoss": 0.002499,
+          "mae": 3.783,
+          "valMae": 3.716
+        },
+        {
+          "epoch": 14,
+          "loss": 0.002382,
+          "valLoss": 0.002319,
+          "mae": 3.651,
+          "valMae": 3.597
+        },
+        {
+          "epoch": 15,
+          "loss": 0.002234,
+          "valLoss": 0.002192,
+          "mae": 3.56,
+          "valMae": 3.509
+        },
+        {
+          "epoch": 16,
+          "loss": 0.002106,
+          "valLoss": 0.002062,
+          "mae": 3.454,
+          "valMae": 3.414
+        },
+        {
+          "epoch": 17,
+          "loss": 0.001984,
+          "valLoss": 0.00195,
+          "mae": 3.381,
+          "valMae": 3.348
+        },
+        {
+          "epoch": 18,
+          "loss": 0.001881,
+          "valLoss": 0.001856,
+          "mae": 3.307,
+          "valMae": 3.264
+        },
+        {
+          "epoch": 19,
+          "loss": 0.001787,
+          "valLoss": 0.001756,
+          "mae": 3.244,
+          "valMae": 3.191
+        },
+        {
+          "epoch": 20,
+          "loss": 0.001685,
+          "valLoss": 0.001669,
+          "mae": 3.146,
+          "valMae": 3.109
+        },
+        {
+          "epoch": 21,
+          "loss": 0.001603,
+          "valLoss": 0.001599,
+          "mae": 3.071,
+          "valMae": 3.041
+        },
+        {
+          "epoch": 22,
+          "loss": 0.001539,
+          "valLoss": 0.001539,
+          "mae": 3.013,
+          "valMae": 2.989
+        },
+        {
+          "epoch": 23,
+          "loss": 0.001481,
+          "valLoss": 0.00149,
+          "mae": 2.973,
+          "valMae": 2.929
+        },
+        {
+          "epoch": 24,
+          "loss": 0.001422,
+          "valLoss": 0.001413,
+          "mae": 2.915,
+          "valMae": 2.861
+        },
+        {
+          "epoch": 25,
+          "loss": 0.001348,
+          "valLoss": 0.001362,
+          "mae": 2.841,
+          "valMae": 2.81
+        },
+        {
+          "epoch": 26,
+          "loss": 0.001296,
+          "valLoss": 0.001315,
+          "mae": 2.787,
+          "valMae": 2.763
+        },
+        {
+          "epoch": 27,
+          "loss": 0.001256,
+          "valLoss": 0.001275,
+          "mae": 2.758,
+          "valMae": 2.728
+        },
+        {
+          "epoch": 28,
+          "loss": 0.001232,
+          "valLoss": 0.001245,
+          "mae": 2.737,
+          "valMae": 2.686
+        },
+        {
+          "epoch": 29,
+          "loss": 0.001171,
+          "valLoss": 0.001209,
+          "mae": 2.667,
+          "valMae": 2.648
+        },
+        {
+          "epoch": 30,
+          "loss": 0.001136,
+          "valLoss": 0.001184,
+          "mae": 2.622,
+          "valMae": 2.634
+        },
+        {
+          "epoch": 31,
+          "loss": 0.001094,
+          "valLoss": 0.001152,
+          "mae": 2.583,
+          "valMae": 2.588
+        },
+        {
+          "epoch": 32,
+          "loss": 0.001068,
+          "valLoss": 0.001107,
+          "mae": 2.562,
+          "valMae": 2.546
+        },
+        {
+          "epoch": 33,
+          "loss": 0.001031,
+          "valLoss": 0.001088,
+          "mae": 2.516,
+          "valMae": 2.533
+        },
+        {
+          "epoch": 34,
+          "loss": 0.000999,
+          "valLoss": 0.001064,
+          "mae": 2.481,
+          "valMae": 2.501
+        },
+        {
+          "epoch": 35,
+          "loss": 0.000971,
+          "valLoss": 0.001035,
+          "mae": 2.446,
+          "valMae": 2.468
+        }
+      ],
+      "featureImportance": [
+        {
+          "feature": "attendance",
+          "label": "Attendance",
+          "maeDelta": 5.314,
+          "importance": 29.4
+        },
+        {
+          "feature": "internalMarks",
+          "label": "Internal Marks",
+          "maeDelta": 3.662,
+          "importance": 20.3
+        },
+        {
+          "feature": "subjectsNeedingImprovement",
+          "label": "Weak Subjects",
+          "maeDelta": 3.51,
+          "importance": 19.4
+        },
+        {
+          "feature": "previousPerformance",
+          "label": "Prev Score",
+          "maeDelta": 1.492,
+          "importance": 8.3
+        },
+        {
+          "feature": "weeklyStudyHours",
+          "label": "Study Hrs",
+          "maeDelta": 1.277,
+          "importance": 7.1
+        },
+        {
+          "feature": "previousGPA",
+          "label": "Prev GPA",
+          "maeDelta": 1.243,
+          "importance": 6.9
+        },
+        {
+          "feature": "assignmentCompletion",
+          "label": "Assignments",
+          "maeDelta": 1.252,
+          "importance": 6.9
+        },
+        {
+          "feature": "participationScore",
+          "label": "Participation",
+          "maeDelta": 0.292,
+          "importance": 1.6
+        },
+        {
+          "feature": "semester",
+          "label": "Semester",
+          "maeDelta": 0.01,
+          "importance": 0.1
+        }
+      ],
+      "actualVsPredicted": [
+        {
+          "index": 1,
+          "actual": 19.4,
+          "predicted": 19.9,
+          "error": 0.43
+        },
+        {
+          "index": 2,
+          "actual": 99.2,
+          "predicted": 96.4,
+          "error": -2.8
+        },
+        {
+          "index": 3,
+          "actual": 12,
+          "predicted": 14.6,
+          "error": 2.58
+        },
+        {
+          "index": 4,
+          "actual": 47.8,
+          "predicted": 48.4,
+          "error": 0.6
+        },
+        {
+          "index": 5,
+          "actual": 32.6,
+          "predicted": 33.6,
+          "error": 0.97
+        },
+        {
+          "index": 6,
+          "actual": 60,
+          "predicted": 58.8,
+          "error": -1.19
+        },
+        {
+          "index": 7,
+          "actual": 99.2,
+          "predicted": 96.2,
+          "error": -3.03
+        },
+        {
+          "index": 8,
+          "actual": 12,
+          "predicted": 19.3,
+          "error": 7.29
+        },
+        {
+          "index": 9,
+          "actual": 93.1,
+          "predicted": 93.8,
+          "error": 0.69
+        },
+        {
+          "index": 10,
+          "actual": 95.9,
+          "predicted": 95.6,
+          "error": -0.31
+        },
+        {
+          "index": 11,
+          "actual": 62.7,
+          "predicted": 62.9,
+          "error": 0.19
+        },
+        {
+          "index": 12,
+          "actual": 87.4,
+          "predicted": 89.8,
+          "error": 2.38
+        },
+        {
+          "index": 13,
+          "actual": 57,
+          "predicted": 55.8,
+          "error": -1.13
+        },
+        {
+          "index": 14,
+          "actual": 99.2,
+          "predicted": 96.9,
+          "error": -2.28
+        },
+        {
+          "index": 15,
+          "actual": 43.3,
+          "predicted": 38.8,
+          "error": -4.46
+        },
+        {
+          "index": 16,
+          "actual": 69.1,
+          "predicted": 69.6,
+          "error": 0.49
+        },
+        {
+          "index": 17,
+          "actual": 30.1,
+          "predicted": 28.6,
+          "error": -1.49
+        },
+        {
+          "index": 18,
+          "actual": 57.1,
+          "predicted": 58.9,
+          "error": 1.76
+        },
+        {
+          "index": 19,
+          "actual": 80.1,
+          "predicted": 80.1,
+          "error": 0.07
+        },
+        {
+          "index": 20,
+          "actual": 23.3,
+          "predicted": 21.8,
+          "error": -1.48
+        },
+        {
+          "index": 21,
+          "actual": 83.8,
+          "predicted": 77.3,
+          "error": -6.5
+        },
+        {
+          "index": 22,
+          "actual": 85.7,
+          "predicted": 79.3,
+          "error": -6.35
+        },
+        {
+          "index": 23,
+          "actual": 35.7,
+          "predicted": 32.1,
+          "error": -3.62
+        },
+        {
+          "index": 24,
+          "actual": 96.2,
+          "predicted": 94.6,
+          "error": -1.55
+        },
+        {
+          "index": 25,
+          "actual": 20.4,
+          "predicted": 23.1,
+          "error": 2.66
+        },
+        {
+          "index": 26,
+          "actual": 70.3,
+          "predicted": 66.4,
+          "error": -3.89
+        },
+        {
+          "index": 27,
+          "actual": 41.7,
+          "predicted": 43.2,
+          "error": 1.58
+        },
+        {
+          "index": 28,
+          "actual": 72,
+          "predicted": 74.5,
+          "error": 2.58
+        },
+        {
+          "index": 29,
+          "actual": 99.2,
+          "predicted": 98.7,
+          "error": -0.52
+        },
+        {
+          "index": 30,
+          "actual": 21.2,
+          "predicted": 23.5,
+          "error": 2.35
+        },
+        {
+          "index": 31,
+          "actual": 99.2,
+          "predicted": 97.8,
+          "error": -1.42
+        },
+        {
+          "index": 32,
+          "actual": 99.2,
+          "predicted": 98.4,
+          "error": -0.79
+        },
+        {
+          "index": 33,
+          "actual": 89.5,
+          "predicted": 90.4,
+          "error": 0.88
+        },
+        {
+          "index": 34,
+          "actual": 99.2,
+          "predicted": 97.1,
+          "error": -2.1
+        },
+        {
+          "index": 35,
+          "actual": 85,
+          "predicted": 88.8,
+          "error": 3.71
+        },
+        {
+          "index": 36,
+          "actual": 77.8,
+          "predicted": 76.2,
+          "error": -1.66
+        },
+        {
+          "index": 37,
+          "actual": 98.8,
+          "predicted": 95.7,
+          "error": -3.09
+        },
+        {
+          "index": 38,
+          "actual": 76.2,
+          "predicted": 77.9,
+          "error": 1.69
+        },
+        {
+          "index": 39,
+          "actual": 99.2,
+          "predicted": 98.3,
+          "error": -0.92
+        },
+        {
+          "index": 40,
+          "actual": 99.2,
+          "predicted": 97.6,
+          "error": -1.63
+        },
+        {
+          "index": 41,
+          "actual": 99.2,
+          "predicted": 98.3,
+          "error": -0.95
+        },
+        {
+          "index": 42,
+          "actual": 23.8,
+          "predicted": 24.8,
+          "error": 1
+        },
+        {
+          "index": 43,
+          "actual": 59,
+          "predicted": 61.2,
+          "error": 2.11
+        },
+        {
+          "index": 44,
+          "actual": 42.8,
+          "predicted": 41.1,
+          "error": -1.69
+        },
+        {
+          "index": 45,
+          "actual": 56,
+          "predicted": 52.7,
+          "error": -3.31
+        },
+        {
+          "index": 46,
+          "actual": 99.2,
+          "predicted": 98.9,
+          "error": -0.27
+        },
+        {
+          "index": 47,
+          "actual": 38.1,
+          "predicted": 35.1,
+          "error": -3
+        },
+        {
+          "index": 48,
+          "actual": 23.6,
+          "predicted": 26.6,
+          "error": 3.08
+        },
+        {
+          "index": 49,
+          "actual": 66.9,
+          "predicted": 64.2,
+          "error": -2.77
+        },
+        {
+          "index": 50,
+          "actual": 63.5,
+          "predicted": 64.9,
+          "error": 1.45
+        },
+        {
+          "index": 51,
+          "actual": 54.8,
+          "predicted": 53.8,
+          "error": -0.98
+        },
+        {
+          "index": 52,
+          "actual": 40.6,
+          "predicted": 37.1,
+          "error": -3.43
+        },
+        {
+          "index": 53,
+          "actual": 83,
+          "predicted": 84.5,
+          "error": 1.47
+        },
+        {
+          "index": 54,
+          "actual": 26.7,
+          "predicted": 30.8,
+          "error": 4.05
+        },
+        {
+          "index": 55,
+          "actual": 99.1,
+          "predicted": 93.7,
+          "error": -5.43
+        },
+        {
+          "index": 56,
+          "actual": 92.1,
+          "predicted": 89.8,
+          "error": -2.26
+        },
+        {
+          "index": 57,
+          "actual": 30,
+          "predicted": 27.7,
+          "error": -2.35
+        },
+        {
+          "index": 58,
+          "actual": 59.6,
+          "predicted": 52.9,
+          "error": -6.68
+        },
+        {
+          "index": 59,
+          "actual": 95.4,
+          "predicted": 96.3,
+          "error": 0.9
+        },
+        {
+          "index": 60,
+          "actual": 99.2,
+          "predicted": 96.2,
+          "error": -3.02
+        }
+      ],
+      "normalizationStats": {
+        "featureOrder": [
+          "attendance",
+          "internalMarks",
+          "previousGPA",
+          "assignmentCompletion",
+          "weeklyStudyHours",
+          "previousPerformance",
+          "subjectsNeedingImprovement",
+          "participationScore",
+          "semester"
+        ],
+        "means": [
+          73.35107142857142,
+          66.57178571428574,
+          6.896702380952379,
+          69.33154761904767,
+          20.774404761904748,
+          68.64904761904768,
+          1.9857142857142858,
+          66.46202380952388,
+          4.445238095238095
+        ],
+        "stds": [
+          17.947220869741336,
+          20.613474595673157,
+          1.902942635322375,
+          20.480990430969058,
+          8.609710720652041,
+          18.683531685305866,
+          1.558321965108229,
+          20.58843175413493,
+          2.234331942443861
+        ],
+        "mins": [
+          25,
+          10,
+          1.5,
+          10,
+          1,
+          15.7,
+          0,
+          12.6,
+          1
+        ],
+        "maxs": [
+          100,
+          100,
+          10,
+          100,
+          42,
+          100,
+          7,
+          100,
+          8
+        ]
+      },
+      "trainingDate": "2026-11-19T02:47:49.625Z",
+      "durationMs": 2251
+    }
+  ],
+  "recommendations": [
+    {
+      "studentId": "NP2023003",
+      "predictionId": "pred_ab1b18f76321",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 58.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 46.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 52.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "High",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 7.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (5.40/10) and prior score (51.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 3 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "3 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 44/100."
+        }
+      ],
+      "id": "rec_37bb6f7356e3",
+      "createdAt": "2026-11-19T02:50:55.573Z"
+    },
+    {
+      "studentId": "NP2023001",
+      "predictionId": "pred_011a5b0d6033",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (96.5%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_c42e11a8b8a8",
+      "createdAt": "2026-11-19T02:47:49.705Z"
+    },
+    {
+      "studentId": "NP2023002",
+      "predictionId": "pred_a055935a5664",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (98.5%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_e7f73cbfb418",
+      "createdAt": "2026-11-19T02:47:49.701Z"
+    },
+    {
+      "studentId": "NP2023003",
+      "predictionId": "pred_4555c87d4fc1",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 58.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 46.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 52.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "High",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 7.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (5.40/10) and prior score (51.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 3 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "3 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 44/100."
+        }
+      ],
+      "id": "rec_94a3fafaf99b",
+      "createdAt": "2026-11-19T02:47:49.697Z"
+    },
+    {
+      "studentId": "NP2023004",
+      "predictionId": "pred_bae8c902e9bc",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (85.2%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_2f51da8c920d",
+      "createdAt": "2026-11-19T02:47:49.693Z"
+    },
+    {
+      "studentId": "NP2023005",
+      "predictionId": "pred_6b9ade214f5d",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "Medium",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 64.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "Medium",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 57.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 63.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 11.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "Medium",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (6.10/10) and prior score (59.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "Medium",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 2 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "2 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 55/100."
+        }
+      ],
+      "id": "rec_ed45d6ff45a3",
+      "createdAt": "2026-11-19T02:47:49.689Z"
+    },
+    {
+      "studentId": "NP2023006",
+      "predictionId": "pred_40acfcac2315",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (97.5%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_50c07ac796c7",
+      "createdAt": "2026-11-19T02:47:49.685Z"
+    },
+    {
+      "studentId": "NP2023007",
+      "predictionId": "pred_224fc74885d7",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 48.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 39.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 41.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "High",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 5.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (4.60/10) and prior score (44.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 4 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "4 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 38/100."
+        }
+      ],
+      "id": "rec_7d473a2ba51b",
+      "createdAt": "2026-11-19T02:47:49.681Z"
+    },
+    {
+      "studentId": "NP2023008",
+      "predictionId": "pred_66ede629382b",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (94.0%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_6616e5d9b4af",
+      "createdAt": "2026-11-19T02:47:49.677Z"
+    },
+    {
+      "studentId": "NP2023009",
+      "predictionId": "pred_e09e1e8e5b36",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "Medium",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 72.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "Medium",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 63.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 70.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 13.0 hours, below the recommended 14–20 hours."
+        }
+      ],
+      "id": "rec_e56d23dcba3c",
+      "createdAt": "2026-11-19T02:47:49.673Z"
+    },
+    {
+      "studentId": "NP2023010",
+      "predictionId": "pred_5aabd900b237",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (98.1%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_b7b268357d4d",
+      "createdAt": "2026-11-19T02:47:49.670Z"
+    },
+    {
+      "studentId": "NP2023011",
+      "predictionId": "pred_0a827c412f0a",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 53.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 43.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 47.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "High",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 6.5 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (5.00/10) and prior score (48.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 4 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "4 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 42/100."
+        }
+      ],
+      "id": "rec_7da3acff6129",
+      "createdAt": "2026-11-19T02:47:49.667Z"
+    },
+    {
+      "studentId": "NP2023012",
+      "predictionId": "pred_e21943b61f8c",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (97.2%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_c940fc2534c7",
+      "createdAt": "2026-11-19T02:47:49.663Z"
+    },
+    {
+      "studentId": "NP2023013",
+      "predictionId": "pred_d4aead259546",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "Medium",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 69.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "Medium",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 60.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 66.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 12.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "Medium",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (6.40/10) and prior score (62.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "Medium",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 2 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "2 subjects currently require focused improvement."
+        }
+      ],
+      "id": "rec_11dea1fbbfae",
+      "createdAt": "2026-11-19T02:47:49.660Z"
+    },
+    {
+      "studentId": "NP2023014",
+      "predictionId": "pred_2dee2e1fcfc8",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (92.2%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_5c66d381fed5",
+      "createdAt": "2026-11-19T02:47:49.657Z"
+    },
+    {
+      "studentId": "NP2023015",
+      "predictionId": "pred_cb6a6e5ca13d",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 44.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 34.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 35.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "High",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 4.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (4.10/10) and prior score (39.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 5 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "5 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 31/100."
+        }
+      ],
+      "id": "rec_2c0400daa88e",
+      "createdAt": "2026-11-19T02:47:49.653Z"
+    },
+    {
+      "studentId": "NP2023016",
+      "predictionId": "pred_e0465d34b949",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 74.0%, leaving continuous assessment points uncaptured."
+        }
+      ],
+      "id": "rec_067274142872",
+      "createdAt": "2026-11-19T02:47:49.650Z"
+    },
+    {
+      "studentId": "NP2023017",
+      "predictionId": "pred_3c5729bae22e",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (95.2%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_782708b2544b",
+      "createdAt": "2026-11-19T02:47:49.647Z"
+    },
+    {
+      "studentId": "NP2023018",
+      "predictionId": "pred_38eafb8f8cc7",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (98.3%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_bd73bcec7a1a",
+      "createdAt": "2026-11-19T02:47:49.645Z"
+    },
+    {
+      "studentId": "NP2023019",
+      "predictionId": "pred_5245de6778fa",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "Medium",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 62.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "Medium",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 54.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 60.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 10.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "Medium",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (5.90/10) and prior score (56.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "Medium",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 2 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "2 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 53/100."
+        }
+      ],
+      "id": "rec_a70186f8a46e",
+      "createdAt": "2026-11-19T02:47:49.642Z"
+    },
+    {
+      "studentId": "NP2023020",
+      "predictionId": "pred_e75eb42452e1",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (96.8%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_7d47acccad3e",
+      "createdAt": "2026-11-19T02:47:49.639Z"
+    },
+    {
+      "studentId": "NP2023021",
+      "predictionId": "pred_9fa24e04b956",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "High",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 55.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "High",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 48.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "High",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 50.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 8.0 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "High",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (5.30/10) and prior score (52.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "High",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 3 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "3 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 47/100."
+        }
+      ],
+      "id": "rec_7c793df2ba6a",
+      "createdAt": "2026-11-19T02:47:49.637Z"
+    },
+    {
+      "studentId": "NP2023022",
+      "predictionId": "pred_cf43c8438a2f",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (84.9%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_9044e1241762",
+      "createdAt": "2026-11-19T02:47:49.634Z"
+    },
+    {
+      "studentId": "NP2023023",
+      "predictionId": "pred_f04bd12fd98b",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Attendance",
+          "priority": "Medium",
+          "title": "Rebuild Consistent Class Attendance",
+          "actionPlan": "Follow a fixed weekly timetable targeting at least 85% attendance over the next 4 weeks. Coordinate with faculty to review missed lecture notes and lab demonstrations.",
+          "triggerReason": "Current attendance is 67.0%, below the 75% academic threshold."
+        },
+        {
+          "id": "rec-2",
+          "category": "Internal Marks",
+          "priority": "Medium",
+          "title": "Targeted Internal Assessment Recovery",
+          "actionPlan": "Schedule weekly faculty office hours, solve previous 3 semesters of internal test papers under timed conditions, and review high-weightage conceptual topics first.",
+          "triggerReason": "Internal marks are 59.0/100, indicating gaps in core unit mastery."
+        },
+        {
+          "id": "rec-3",
+          "category": "Assignments",
+          "priority": "Medium",
+          "title": "Structured Assignment Submission Plan",
+          "actionPlan": "Break pending coursework into 45-minute milestones due 48 hours before official deadlines. Prioritize graded lab records and problem sets to recover continuous evaluation marks.",
+          "triggerReason": "Assignment completion is 65.0%, leaving continuous assessment points uncaptured."
+        },
+        {
+          "id": "rec-4",
+          "category": "Study Routine",
+          "priority": "Medium",
+          "title": "Establish a Realistic Daily Study Cadence",
+          "actionPlan": "Increase self-study to 2.5–3 hours/day (18+ hours/week) using spaced repetition and active recall blocks rather than pre-exam cramming.",
+          "triggerReason": "Logged weekly study time is 11.5 hours, below the recommended 14–20 hours."
+        },
+        {
+          "id": "rec-5",
+          "category": "GPA Recovery",
+          "priority": "Medium",
+          "title": "Subject-Wise Foundational Reinforcement",
+          "actionPlan": "Audit prerequisite concepts from prior semesters that carry forward into current courses and pair with a peer study group or departmental tutor.",
+          "triggerReason": "Prior GPA (6.30/10) and prior score (61.0%) signal foundational drag."
+        },
+        {
+          "id": "rec-6",
+          "category": "Backlog Clearance",
+          "priority": "Medium",
+          "title": "Prioritized Subject Remediation Track",
+          "actionPlan": "Create a dedicated 6-week remediation tracker for the 2 flagged subjects, allocating 60% of revision hours to the two lowest-scoring courses.",
+          "triggerReason": "2 subjects currently require focused improvement."
+        },
+        {
+          "id": "rec-7",
+          "category": "Participation",
+          "priority": "Low",
+          "title": "Increase Interactive Seminar & Lab Engagement",
+          "actionPlan": "Prepare at least two concept questions before each lecture and actively lead one lab exercise or tutorial walkthrough per fortnight.",
+          "triggerReason": "Class participation score is 58/100."
+        }
+      ],
+      "id": "rec_d0cdb6b97d2a",
+      "createdAt": "2026-11-19T02:47:49.632Z"
+    },
+    {
+      "studentId": "NP2023024",
+      "predictionId": "pred_261d461f7e7e",
+      "engineType": "rule-based",
+      "recommendations": [
+        {
+          "id": "rec-1",
+          "category": "Enrichment",
+          "priority": "Low",
+          "title": "Pursue Research Projects & Peer Mentorship",
+          "actionPlan": "Maintain current study consistency while stretching into faculty-guided research seminars, competitive coding/design tracks, or peer mentoring for medium-risk classmates.",
+          "triggerReason": "Strong projected performance (96.2%) with balanced academic indicators."
+        }
+      ],
+      "id": "rec_d1a40a1524d3",
+      "createdAt": "2026-11-19T02:47:49.631Z"
+    }
+  ],
+  "settings": {
+    "riskThresholds": {
+      "lowRiskMin": 70,
+      "mediumRiskMin": 50
+    },
+    "academicYear": "2026-2027",
+    "institutionName": "NeuroPredict Academic Research Institute",
+    "syntheticDataDisclaimer": "The neural network is trained on a reproducible synthetic educational dataset (1,200 records) for NNDL PBL academic demonstration. Predictions must not be interpreted as validated real-world exam outcomes."
+  }
+}

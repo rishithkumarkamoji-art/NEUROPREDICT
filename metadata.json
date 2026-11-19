@@ -1,0 +1,6 @@
+{
+  "name": "NeuroPredict",
+  "description": "Neural Network-Based Student Performance Prediction and Academic Risk Detection System powered by TensorFlow.js.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
